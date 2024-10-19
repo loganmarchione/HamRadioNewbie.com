@@ -1,0 +1,68 @@
+baseURL: "https://hamradionewbie.com"
+languageCode: "en-us"
+title: HamRadioNewbie.com
+pagination:
+  disableAliases: false
+  pagerSize: 10
+  path: page
+
+permalinks:
+  posts: /:year/:month/:title/
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+enableEmoji: true
+
+outputs:
+  home:
+    - HTML
+    - RSS
+
+minify:
+  disableXML: true
+  minifyOutput: false
+
+module:
+  imports:
+    - path: github.com/tomfran/typo
+
+params:
+  theme: "auto"
+  colorPalette: "catpuccin"
+  hideHeader: false
+  faviconPath: "assets/favicon"
+  description : "HamRadioNewbie.com"
+  homeIntroTitle: Hi there 👋🏻"
+  homeIntroContent: >
+    Join me (a complete newbie) as I attempt to learn about amateur (ham) radio and obtain my technician license!
+  menu:
+    - name: "Home"
+      url: "/"
+    - name: "Posts"
+      url: "/posts"
+
+  homeCollectionTitle: "Posts"
+  homeCollection: "posts"
+
+  paginationSize: 10
+  listSummaries: true
+  listDateFormat: "2006-01-02"
+  singleDateFormat: "2006-01-02"
+
+  breadcrumbs: true
+
+privacy:
+  disqus:
+    disable: true
+  googleAnalytics:
+    disable: true
+  instagram:
+    disable: true
+  twitter:
+    disable: true
+  vimeo:
+    disable: true
+  youtube:
+    disable: true
