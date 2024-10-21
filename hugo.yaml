@@ -36,7 +36,7 @@ params:
   description : "HamRadioNewbie.com"
   homeIntroTitle: Hi there 👋🏻"
   homeIntroContent: >
-    Join me (a complete newbie) as I attempt to learn about amateur (ham) radio and obtain my technician license!
+    Join me (a complete newbie) as I attempt to learn about amateur (ham) radio and obtain my Technician license!
   menu:
     - name: "Home"
       url: "/"
@@ -61,7 +61,7 @@ privacy:
   instagram:
     disable: true
   twitter:
-    disable: true
+    disable: false
   vimeo:
     disable: true
   youtube:
