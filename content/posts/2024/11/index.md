@@ -20,9 +20,11 @@ This post will attempt to explain what I'm doing, why I'm doing it, and how I pl
 
 ### What is radio?
 
-I'll dive more into this later, but the [electromagnetic spectrum](https://en.wikipedia.org/wiki/Electromagnetic_spectrum) encompasses all electromagnetic radiation, from relatively long radio waves, to relatively short gamma rays. Radio is just a small slice of the spectrum that includes things like AM/FM radio, television broadcasts, NFC, RFID, WiFi, Bluetooth, and more.
+I'll dive more into this in a later post, but the [electromagnetic spectrum](https://en.wikipedia.org/wiki/Electromagnetic_spectrum) encompasses all electromagnetic radiation, from relatively long radio waves, to microwaves, to visible light, to relatively short gamma rays. Radio (the wave) is just a small slice of the spectrum that includes things like AM/FM radio, television broadcasts, NFC, RFID, WiFi, Bluetooth, and more.
 
-A radio picks up radio waves using an antenna, which captures the electromagnetic signals traveling through the air. The radio then tunes to a specific frequency and demodulates the signal to extract the audio information. This signal is amplified and sent to the speaker, where it’s converted into sound you can hear.
+{{< figure src="20241021_001.png" width="100%" loading="lazy" alt="the electromagnetic spectrum" attr="Image from Wikipedia" attrlink="https://en.wikipedia.org/wiki/Electromagnetic_spectrum">}}
+
+A radio (the device) picks up radio waves using an antenna, which captures the electromagnetic signals traveling through the air. The radio then tunes to a specific frequency and demodulates the signal to extract the audio information. This signal is amplified and sent to the speaker, where it’s converted into sound you can hear (note that you can also send digital data over radio, not just sound).
 
 ### What is amateur (ham) radio?
 

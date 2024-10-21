@@ -28,6 +28,12 @@ VFO
 
 Can't broadcast on FRS frequencies because of the removable antenna
 
+https://www.qrz.com/jumpstart/account-required
+
+https://www.yaesu.com/indexVS.cfm?cmd=DisplayProducts&ProdCatID=111&encProdID=6EC43B29CEF0EC2B4E19BB7371688B7F&DivisionID=65&isArchived=0
+
+https://www.yaesu.com/indexVS.cfm?cmd=DisplayProducts&ProdCatID=111&encProdID=4C6F204F6FEBB5BAFA58BCC1C131EAC0&DivisionID=65&isArchived=0
+
 ## Conclusion
 
 \-HamRadioNewbie
