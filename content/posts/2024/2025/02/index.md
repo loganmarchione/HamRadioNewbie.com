@@ -31,12 +31,6 @@ Script goes like this:
 * Wait for five minutes
 * Repeat every three hours
 
-## The rules
-
-No swearing
-
-No encryption
-
 ## Conclusion
 
 \-HamRadioNewbie

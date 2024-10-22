@@ -83,6 +83,14 @@ Because we're using the metric system, we can use [metric prefixes](https://en.w
 
 ## Refraction
 
+In the diagram below, the red and green antennas can communicate with each other via line-of-sight. Remember that unless using a directional antenna, radio waves travel outward in all directions at the speed of light. Because of this, the red and green radios will be able to talk to each other, and in fact, their waves will continue into space forever.
+
+However, the purple radio is blocked by a mountain and the curvature of the Earth. In this case, the green radio can take advantage of a unique property called [refraction](https://en.wikipedia.org/wiki/Refraction). In this case, a lower frequency band can be used to "bounce" the signal off of Earth's atmosphere (it happens in all directions, but for the sake of this diagram, I've only shown it in one).
+
+{{< img src="20241022_001.png" alt="refraction" >}}
+
+## Misc
+
 FRS CB MURS GMRS HAM
 
 UHF is this close 🤏🏻 to being heat

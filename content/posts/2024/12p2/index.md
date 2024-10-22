@@ -20,14 +20,15 @@ https://www.youtube.com/watch?v=PIeavEhUhSw
 
 No, not this kind of license.
 
-![meme](/assets/memes/mclovin.jpg) multiple-choice questions
-
-
+![meme](/assets/memes/mclovin.jpg)
 
 Listening is free
 
+The person is licensed, not the radio.
 
 ## The FCC
+
+There are some country-by-country rules, but generally, all ham radio frequencies are the same over the globe.
 
 ### Get a PO Box
 
@@ -47,6 +48,10 @@ VCE
 * Extra
     * requires General license
     * 50 multiple-choice questions (must get 37 correct)
+
+Technician radio generally allows use of light-of-sight communication and repeaters. If you want to refract your signal off of the atmosphere, you need to use lower frequencies, which requires the General license.
+
+https://wireless2.fcc.gov/UlsApp/UlsSearch/searchAdvanced.jsp
 
 Exam Tools
 
@@ -75,6 +80,19 @@ Pay the $35 fee (10 days)
 Call sign in a day or two
 
 Carry your license with you
+
+## The rules
+
+[Part 97 of the FCC rules](https://www.ecfr.gov/current/title-47/chapter-I/subchapter-D/part-97) govern the rules of amateur radio. A few key things to point out are below.
+
+* Identify yourself by callsign at the end of every communication and once every 10 minutes (this must be done in English)
+* Non-commercial use only
+* Avoid interference and use the minimum power necessary
+* No swearing
+* No encryption
+* No broadcasting music
+* Even though your radio *can* work on FRS/CB/GMRS bands, you shouldn't use it for that (you should buy a separate radio for that)
+* Amateur radio can be used without a license in an emergency
 
 ## Conclusion
 
