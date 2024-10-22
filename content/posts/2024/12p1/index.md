@@ -36,7 +36,7 @@ The energy coming out of an antenna is a wave which travels at the speed of ligh
 
 A cycle is one complete repetition of a wave's shape. In the diagram below, there are two cycles (I've colored them red and blue to make it easier to see).
 
-The number of wave cycles that pass a fixed point in a given amount of time is called frequency. This is measured in cycles per second or Hertz (Hz). In the diagram below, the time between the two green dots is one second. Because two cycles pass in one second, this wave has a wavelength of 2Hz.
+The number of wave cycles that pass a fixed point in a given amount of time is called frequency. This is measured in cycles per second or Hertz (Hz). In the diagram below, the time between the two green dots is one second. Because two cycles pass in one second, this wave has a frequency of 2Hz.
 
 The distance between two of the same points on wave cycles is called the wavelength. This is measured in meters (m).
 
@@ -44,11 +44,11 @@ The maximum distance between a wave's resting position and the peak or trough of
 
 {{< img src="20241021_002.png" alt="radio wave" >}}
 
-In the diagram below, the time between the two green dots is one second. Because four cycles pass in one second, this wave has a wavelength of 4Hz. You can see how the waves are closer together and more waves will pass in the same amount of time.
+In the diagram below, the time between the two green dots is one second. Because four cycles pass in one second, this wave has a frequency of 4Hz. You can see how the waves are closer together and more waves will pass in the same amount of time.
 
 {{< img src="20241021_003.png" alt="radio wave" >}}
 
-Because we're using the metric system, we can measure the waves using [metric prefixes](https://en.wikipedia.org/wiki/Metric_system). For example, frequency could be 1,000Hz or simply one kilohertz (1KHz). A wavelength could be .01 meters or simply one centimeter (1cm).
+Because we're using the metric system, we can use [metric prefixes](https://en.wikipedia.org/wiki/Metric_system) for our units of measurement. For example, frequency could be 1,000Hz or simply one kilohertz (1KHz). Wavelength could be .01 meters or simply one centimeter (1cm).
 
 | Prefix    | Symbol | Factor                       | Power    |
 |-----------|--------|------------------------------|----------|
