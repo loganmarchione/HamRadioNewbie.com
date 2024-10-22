@@ -6,7 +6,7 @@ description: "📻 A brief overview of radios"
 toc: true
 readTime: true
 autonumber: true
-math: true
+math: false
 tags: ["ham"]
 showTags: false
 hideBackToTop: false
@@ -54,20 +54,20 @@ After some research, below are some recommended radios for newbies (like me).
 
 [Yaesu FT-4XR](https://www.yaesu.com/indexvs.cfm?cmd=DisplayProducts&ProdCatID=111&encProdID=E28C87590C67439440323C0FEDAC1BEB&DivisionID=65&isArchived=0) ~$100
 
-* Dual-band (144/430MHz)
+* Dual-band (144/430 MHz)
 * SMA male (requires SMA female antenna)
 * Li-ion battery pack
 
 [Yaesu FT-60R](https://www.yaesu.com/indexVS.cfm?cmd=DisplayProducts&ProdCatID=111&encProdID=6EC43B29CEF0EC2B4E19BB7371688B7F&DivisionID=65&isArchived=0) ~$150
 
-* Dual-band (144/430MHz)
+* Dual-band (144/430 MHz)
 * SMA female (requires SMA male antenna)
 * Ni–MH battery pack
 * Aluminum body
 
 [Yaesu VX-6R](https://www.yaesu.com/indexVS.cfm?cmd=DisplayProducts&ProdCatID=111&encProdID=4C6F204F6FEBB5BAFA58BCC1C131EAC0&DivisionID=65&isArchived=0) ~$250
 
-* Tri-band (144/220/430MHz)
+* Tri-band (144/220/430 MHz)
 * SMA female (requires SMA male antenna)
 * Li-ion battery pack
 * Aluminum body
@@ -75,7 +75,7 @@ After some research, below are some recommended radios for newbies (like me).
 
 [Kenwood TH-D75A](https://www.kenwood.com/usa/com/amateur/th-d75a/) ~ $750 (jk lol 😜)
 
-* Tri-band (144/220/430MHz)
+* Tri-band (144/220/430 MHz)
 * SMA female (requires SMA male antenna)
 * Li-ion battery pack
 * Bluetooth, D-STAR, microSD, USB-C, APRS, GPS, text messaging, color screen

@@ -6,7 +6,7 @@ description: "🐖 What the heck is a ham?"
 toc: true
 readTime: true
 autonumber: true
-math: true
+math: false
 tags: ["ham"]
 showTags: false
 hideBackToTop: false

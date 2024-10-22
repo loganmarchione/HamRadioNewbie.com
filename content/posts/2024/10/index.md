@@ -6,7 +6,7 @@ description: "👋 A quick introduction to HamRadioNewbie.com"
 toc: true
 readTime: true
 autonumber: true
-math: true
+math: false
 tags: ["ham"]
 showTags: false
 hideBackToTop: false

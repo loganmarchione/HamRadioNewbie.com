@@ -24,6 +24,13 @@ minify:
   disableXML: true
   minifyOutput: false
 
+markup:
+  goldmark:
+    extensions:
+      extras:
+        superscript:
+          enable: true
+
 module:
   imports:
     - path: github.com/tomfran/typo
