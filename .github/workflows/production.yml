@@ -60,6 +60,10 @@ jobs:
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/" 
 
+      - name: Verify files
+        run: |
+          sudo apt update && sudo apt-get install -y tree && tree ./public
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
