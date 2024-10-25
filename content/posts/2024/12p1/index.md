@@ -105,17 +105,21 @@ Carry your license with you
 | Service                                                                                                                                  | Common Usage                   | Max Power  | Frequency Band  | Detachable Antenna  | Repeaters Allowed  | License Required                           |
 |------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------|------------|-----------------|---------------------|--------------------|--------------------------------------------|
 | [FRS (Family Radio Service)](https://www.fcc.gov/wireless/bureau-divisions/mobility-division/family-radio-service-frs)                   | Walkie-talkies (retail stores) | 2 watts    | UHF             | No                  | No                 | No                                         |
-| [CB (Citizen Band)](https://www.fcc.gov/wireless/bureau-divisions/mobility-division/citizens-band-radio-service-cbrs)                    | Trucker radios                 | 4 watts    | HF              | Yes (usually)       | No                 | No                                         |
+| [CB (Citizen Band)](https://www.fcc.gov/wireless/bureau-divisions/mobility-division/citizens-band-radio-service-cbrs)                    | Trucker radios                 | 4 watts    | HF              | Yes (often)         | No                 | No                                         |
 | [MURS (Multi-Use Radio Service)](https://www.fcc.gov/wireless/bureau-divisions/mobility-division/multi-use-radio-service-murs)           | Business radios                | 2 watts    | VHF             | Yes (often)         | No                 | No                                         |
-| [GMRS (General Mobile Radio Service)](https://www.fcc.gov/wireless/bureau-divisions/mobility-division/general-mobile-radio-service-gmrs) | Walkie-talkies (marked "GMRS") | 50 watts   | UHF             | Yes (often)         | Yes                | Yes (no test, covers family)               |
-| [Ham Radio (Amateur)](https://www.fcc.gov/wireless/bureau-divisions/mobility-division/amateur-radio-service)                             | Amateur/dual-band radios       | 1500 watts | VHF/UHF         | Yes                 | Yes                | Yes (multiple tests, individual coverage)  |
+| [GMRS (General Mobile Radio Service)](https://www.fcc.gov/wireless/bureau-divisions/mobility-division/general-mobile-radio-service-gmrs) | Walkie-talkies (marked "GMRS") | 50 watts   | UHF             | Yes (often)         | Yes                | Yes (no test, family coverage)             |
+| [Amateur Radio (ham)](https://www.fcc.gov/wireless/bureau-divisions/mobility-division/amateur-radio-service)                             | Amateur/dual-band radios       | 1500 watts | VHF/UHF         | Yes                 | Yes                | Yes (multiple tests, individual coverage)  |
 
 
 A few more things:
 
 1. FRS, CB, MURS, and GMRS are channelized, meaning you don't tune to a specific frequency, you just tune to a channel (e.g., channel 1). In fact, FRS and GMRS use the same set of channels (meaning FRS and GMRS users will be able to communicate). However, GMRS has more channels and allows the use of repeaters.
-1. With ham radio, the person is licensed, not the radio. For FRS and CB, the manufacturers of radios need to submit their designs to the FCC for approval. That's why you don't need a license to use these radios (because the license is already part of the radio you purchased). With ham radio, the radio is not licensed/certified.
-1. Because ham radio assumes the operator is responsible, you
+1. For FRS, CB, and MURS, the manufacturers of radios need to submit their designs to the FCC for approval. That's why you don't need a license to use these radios (because the license is already part of the radio you purchased). With GMRS and ham radio, the person is licensed, not the radio. 
+1. Because ham radio is not channelized and and allows up to 1500 watts of power, the FCC assumes that the ham radio operator is knowledgeable about radio and responsible for their actions (that's why there is a test).
+
+## GMRS license
+
+I applied for my GMRS license and paid the $35 fee. It was very easy, just follow [these instructions](https://www.fcc.gov/wireless/support/knowledge-base/universal-licensing-system-uls-resources/applying-new-license) and choose *GMRS* from the dropdown.
 
 ## Conclusion
 
