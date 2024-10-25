@@ -1,6 +1,6 @@
 # HamRadioNewbie.com
 
-[![CI/CD](https://github.com/loganmarchione/HamRadioNewbie.com/actions/workflows/hugo.yml/badge.svg)](https://github.com/loganmarchione/HamRadioNewbie.com/actions/workflows/hugo.yml)
+[![CI/CD](https://github.com/loganmarchione/HamRadioNewbie.com/actions/workflows/production.yml/badge.svg)](https://github.com/loganmarchione/HamRadioNewbie.com/actions/workflows/hugo.yml)
 
 [![](https://img.shields.io/website?down_color=red&down_message=offline&label=loganmarchione.github.io&up_color=green&up_message=online&url=https%3A%2F%2Floganmarchione.github.io)](https://loganmarchione.github.io)
 

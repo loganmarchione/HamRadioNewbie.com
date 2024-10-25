@@ -1,12 +1,12 @@
 ---
 title: "Hello, World!"
 date: "2024-10-19"
-summary: "A quick introduction to HamRadioNewbie.com"
-description: "A quick introduction to HamRadioNewbie.com"
+summary: "👋 A quick introduction to HamRadioNewbie.com"
+description: "👋 A quick introduction to HamRadioNewbie.com"
 toc: true
 readTime: true
 autonumber: true
-math: true
+math: false
 tags: ["ham"]
 showTags: false
 hideBackToTop: false
@@ -31,7 +31,7 @@ I work in IT as a DevOps Engineer. I enjoy what I do and tend to gravitate towar
 My goals are simple:
 
 * Learn about amateur (ham) radio
-* Obtain my technician license (I live in the US and am subject to the FCC's rule)
+* Obtain my Technician license (I live in the US and am subject to the FCC's rule)
 * Have fun and not look like an ass while doing it 🤷🏻
 
 I'm not a prepper and there is no bunker in my basement. I'm not trying to become the guy with a 50' mast in his backyard and I don't want to wear a chest rig in public.
@@ -49,6 +49,8 @@ I've run [WordPress](https://wordpress.org/) websites for a long time, and consi
 I transitioned my personal blog to [Hugo](https://gohugo.io/) about a year ago and never looked back. It's light, fast, written in [Markdown](https://en.wikipedia.org/wiki/Markdown), stored in git, etc...
 
 For this project as well, Hugo was a perfect fit. I enjoy the fact that I can write into the ether with no expectation of having to answer to anyone.
+
+This blog also has a [RSS feed](/index.xml) if you want to subscribe.
 
 ## Conclusion
 
