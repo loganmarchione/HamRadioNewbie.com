@@ -97,7 +97,7 @@ Carry your license with you
 * No swearing
 * No encryption
 * No broadcasting music
-* Even though your radio *can* work on FRS/CB/GMRS bands, you shouldn't use it for that (you should buy a separate radio for that)
+* Although your ham radio *can* work on FRS/CB/GMRS bands, you shouldn't use it for that (you should buy a separate radio for that)
 * Ham radio can be used without a license in an emergency
 
 ## FRS vs. CB vs. MURS vs. GMRS vs. ham
@@ -119,7 +119,13 @@ A few more things:
 
 ## GMRS license
 
-I applied for my GMRS license and paid the $35 fee. It was very easy, just follow [these instructions](https://www.fcc.gov/wireless/support/knowledge-base/universal-licensing-system-uls-resources/applying-new-license) and choose *GMRS* from the dropdown.
+I applied for my GMRS license and paid the $35 fee. It was very easy, just follow [these instructions](https://www.fcc.gov/wireless/support/knowledge-base/universal-licensing-system-uls-resources/applying-new-license) after you have your FRN (and PO Box) and choose *GMRS* from the dropdown.
+
+## Common frequencies
+
+144/440
+
+2m/70cm
 
 ## Conclusion
 

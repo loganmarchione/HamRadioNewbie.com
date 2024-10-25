@@ -1,8 +1,8 @@
 ---
 title: "Misc"
 date: "2025-02-01"
-summary: "Test"
-description: "Test"
+summary: "📡 Test"
+description: "📡 Test"
 toc: true
 readTime: true
 autonumber: true

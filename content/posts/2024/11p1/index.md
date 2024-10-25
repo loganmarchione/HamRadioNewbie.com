@@ -20,7 +20,7 @@ As Carl Sagan once said:
 
 {{< youtube BkHCO8f2TWs >}}
 
-This won't be quite *that* complicated, but we do need to talk about the basics of the [electromagnetic spectrum](https://en.wikipedia.org/wiki/Electromagnetic_spectrum) and *how* radio works. I'm not a radio engineer, or a physicist, so we're going to go an inch deep and a foot wide on this topic.
+This won't be quite *that* complicated, but understanding radio requires a grasp of fundamental physics and the [electromagnetic spectrum](https://en.wikipedia.org/wiki/Electromagnetic_spectrum). I'm not a radio engineer, or a physicist, so we're going to go an inch deep and a foot wide on this topic.
 
 ## The electromagnetic spectrum
 
@@ -28,7 +28,7 @@ The [electromagnetic spectrum](https://en.wikipedia.org/wiki/Electromagnetic_spe
 
 {{< figure src="20241021_001.png" width="100%" loading="lazy" alt="the electromagnetic spectrum" attr="Image from Wikipedia" attrlink="https://en.wikipedia.org/wiki/Electromagnetic_spectrum">}}
 
-It's important to note that there is no hard boundary between wave types (e.g., radio waves and microwaves). It is a spectrum that slowly spreads from one to the other.
+It's important to note that there is no hard boundary between wave types (e.g., radio waves and microwaves). It's a spectrum that slowly spreads from one to the other.
 
 ### Waves
 
@@ -38,7 +38,7 @@ A cycle is one complete repetition of a wave's shape. In the diagram below, ther
 
 The number of wave cycles that pass a fixed point in a given amount of time is called frequency. This is measured in cycles per second or Hertz (Hz). In the diagram below, the time between the two green dots is one second. Because two cycles pass in one second, this wave has a frequency of 2 Hz.
 
-The distance between two of the same points on wave cycles is called the wavelength. This is measured in meters (m). It is sometimes represented by the symbol λ (lambda).
+The distance between two of the same points on wave cycles is called the wavelength. This is measured in meters (m) and sometimes represented by the symbol λ (lambda).
 
 The maximum distance between a wave's resting position and the peak or trough of a wave is called amplitude. This can be measured in different units depending on the type of wave.
 
@@ -68,7 +68,7 @@ Because we're using the metric system, we can use [metric prefixes](https://en.w
 
 ### Radio waves
 
-The electromagnetic spectrum is a...spectrum. As as such, [radio waves themselves are a spectrum](https://en.wikipedia.org/wiki/Radio_spectrum) from 1 Hz to 3 THz (anything higher is literally a microwave 🧑🏻‍🍳).
+The electromagnetic spectrum is a...spectrum. As such, [radio waves themselves are a spectrum](https://en.wikipedia.org/wiki/Radio_spectrum) from 1 Hz to 3 THz (anything higher is literally a microwave 🧑🏻‍🍳). Below is a table comparing the different radio frequency bands and their properties.
 
 | Frequency Band                   | Abbreviation | Frequency Range  | Wavelength Range    | Uses                                                                                                     | Comments                                                     |
 |----------------------------------|--------------|------------------|---------------------|----------------------------------------------------------------------------------------------------------|--------------------------------------------------------------|
@@ -87,6 +87,32 @@ The electromagnetic spectrum is a...spectrum. As as such, [radio waves themselve
 
 {{< figure src="20241022_002.png" width="100%" loading="lazy" alt="the radio spectrum" attr="Image from U.S. Department of Transportation" attrlink="https://www.transportation.gov/pnt/what-radio-spectrum">}}
 
+## Attenuation and penetration
+
+[Attenuation](https://en.wikipedia.org/wiki/Attenuation) refers to the reduction in signal strength of a radio wave over a distance or through a medium. The strength of a wave degrades over distance, even in a vacuum (think of the faint signals of the [Voyager probes](https://en.wikipedia.org/wiki/Voyager_program)). On Earth, although radio waves travel through "thin air", they encounter various obstacles (like air molecules, trees, building, etc...) that can reduce their strength.
+
+Penetration describes the ability of a radio wave to pass through an object. Generally, lower frequency waves can penetrate better due to their longer wavelengths. This is why 2.4GHz WiFi goes further than 5GHz WiFi, and why millimeter wave 5G is easily blocked by almost anything.
+
+{{< youtube 4PLhxYIDwJs>}}
+
+## Modulation
+
+[Modulation](https://en.wikipedia.org/wiki/Modulation) is the process of changing a wave, usually to encode information (voice, data, etc...). Modulation allows signals to travel farther and with less interference, and it helps separate different signals transmitted over the same medium. It's essential for radio communication, as it helps convert audio or data into a form that can be transmitted over electromagnetic waves.
+
+In radio, we're mainly concerned about three types of modulation: amplitude, frequency, and phase modulation.
+
+Amplitude modulation (AM) encodes information by changing the amplitude (strength) of a wave, while frequency remains constant. Frequency modulation (FM) encodes information by changing the frequency (waves per unit of time) of a wave, while the amplitude stays constant. AM is simpler, more susceptible to interference, and travels further, while FM offers better sound quality and resistance to interference, but doesn't travel as far.
+
+{{< figure src="20241025_001.gif" width="500px" loading="lazy" alt="am and fm modulation" attr="Image from Wikipedia" attrlink="https://en.wikipedia.org/wiki/Modulation">}}
+
+Phase is basically where a wave is in time. While not really useful by itself, when you have two waves that are not in phase with each other (i.e., they're not overlapping), you can measure the difference between them (called phase difference or phase shift). In the diagram below, the purple and green waves are out of phase.
+
+{{< img src="20241025_002.png" alt="radio wave" >}}
+
+Phase modulation (PM) encodes information by moving waves "forward" or "backward" along the time axis to encode data.
+
+{{< figure src="20241025_003.gif" width="500px" loading="lazy" alt="phase modulation" attr="Image from Vassar College" attrlink="https://pages.vassar.edu/magnes/page/24/">}}
+
 ## Refraction
 
 In the not-to-scale diagram below, the red and green antennas can communicate with each other via line-of-sight. Remember that unless using a directional antenna, radio waves travel outward in all directions at the speed of light. Because of this, the red and green radios will be able to talk to each other, and in fact, their waves will continue into space forever.
@@ -95,6 +121,15 @@ However, the purple radio is blocked by a mountain and the curvature of the Eart
 
 {{< img src="20241022_001.png" alt="refraction" >}}
 
+### Day vs night
+
+The effectiveness of skywave propagation changes throughout the day due to changes in Earth's [ionosphere](https://en.wikipedia.org/wiki/Ionosphere), which is the ionized part of Earth's upper atmosphere. During the day, the Sun's UV radiation ionizes the ionosphere more, causing lower frequency radio waves to be absorbed by the atmosphere (making them less-effective for long-distance communication). At night, without the Sun's UV radiation, the ionosphere is less ionized, which allows these lower frequency radio waves to be refracted back towards Earth, allowing them to travel farther.
+
+### Solar cycle 
+In addition to the daily cycle, the [solar cycle](https://en.wikipedia.org/wiki/Solar_cycle) also plays a significant role in radio wave propagation. The solar cycle, first observed in 1755 (called cycle one), is a cycle of changes every 11-ish years in the Sun's activity, including number of sunspots, solar flares, etc... Basically, during the peak of the solar cycle, increased solar activity affects the ionosphere in a way that enhances radio wave refraction (allowing radio waves to travel further). We are currently in solar cycle 25, with the peak of the cycle being expected in 2025 or 2026 (which is when radio waves will go the furthest).
+
 ## Conclusion
+
+I know this was probably a dry post, but it contains the absolute basics you'll need to get started with this hobby and some of it will be on the Technician exam. Plus, it doesn't hurt to have a understand (however basic) of the world around you.
 
 \-HamRadioNewbie

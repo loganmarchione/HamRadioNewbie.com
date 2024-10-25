@@ -1,5 +1,5 @@
 ---
-title: "Ham hardware"
+title: "Hardware"
 date: "2025-01-31"
 summary: "📻 A brief overview of radios"
 description: "📻 A brief overview of radios"
@@ -22,7 +22,7 @@ Radios comes in a few form factors, depending on what you need them to do.
 
 ### Handheld transceiver (HT)
 
-As the name implies, these are handheld devices. They typically max out at around 5 watts of transmit power. They typically have a removable antenna and are battery-powered.
+As the name implies, these are handheld devices. They typically max out at around 5 watts of transmit power. They typically have a detachable antenna and are battery-powered.
 
 {{< img src="20241021_001.jpg" alt="handheld transceiver (HT)" >}}
 
@@ -42,15 +42,51 @@ Base stations are the largest units with the most advanced features. They are me
 
 {{< img src="20241021_004.jpg" alt="base station" >}}
 
-## Misc
+## Radio recommendations
 
-Can't broadcast on FRS frequencies because of the removable antenna
+### GMRS
 
-https://www.qrz.com/jumpstart/account-required
+GMRS radios all tend to have the same basic features (channels, privacy codes, NOAA weather alerts, etc...), with the only differences being battery composition (Ni–MH vs Li-ion), waterproofing level, etc... Basically, it comes down to a decision of how tough you need your radio to be. Below are some GMRS radios that seem to be recommended.
 
-## Recommendations
+[Wouxun KG-935G Plus](https://www.buytwowayradios.com/wouxun-kg-935g-plus.html) ~$150
+
+* GMRS
+* Detachable antenna
+* Li-ion battery pack (removable)
+* USB-C charging
+* IP66 water-resistant
+* Privacy codes
+* NOAA Weather Alerts
+* Software-programmable
+
+[Rocky Talkie 5 Watt Radio](https://rockytalkie.com/products/5-watt-radio) ~$180
+
+* GMRS
+* Detachable antenna
+* Li-ion battery pack (removable)
+* USB-C charging
+* IP67 waterproof
+* Privacy codes
+* NOAA Weather Alerts
+* Simple interface (designed for back-country use)
+
+[Midland GXT67 PRO](https://midlandusa.com/collections/gxt-walkie-talkie/products/gxt-gmrs-5-watt-two-way-radio-gxt67-pro) ~$200
+
+* GMRS
+* Fixed antenna
+* Li-ion battery (non-removable)
+* USB-C charging
+* IP67 waterproof
+* Privacy codes
+* NOAA Weather Alerts
+* Active Noise Cancelling (ANC)
+* Software-programmable
+
+### Ham radio recommendations
 
 After some research, below are some recommended radios for newbies (like me).
+
+https://www.qrz.com/jumpstart/account-required
 
 [Yaesu FT-4XR](https://www.yaesu.com/indexvs.cfm?cmd=DisplayProducts&ProdCatID=111&encProdID=E28C87590C67439440323C0FEDAC1BEB&DivisionID=65&isArchived=0) ~$100
 
@@ -84,9 +120,9 @@ You can check out more recommendations as-of 2023 below.
 
 {{< youtube 2EZFa-2HzFI >}}
 
-### About cheap Chinese radios
+### About Chinese radios
 
-I have read online to avoid the cheaper Chinese radios (e.g., Baofeng, Talkpod, Tidradio etc...). While they do work, they apparently tend to break easily, do not have safe batteries, and might transmit on frequencies other than the ones specified (called spurious emissions). That said, if you can't afford to spend a lot of money, the [Baofeng UV-5R](https://www.baofengradio.com/products/uv-5r) seems to be the most recommended (just remember, you get what you pay for 🤷🏻).
+I have read online to avoid the cheaper Chinese radios (e.g., Baofeng/BTECH Talkpod, Tidradio etc...). While they do work, they apparently tend to break easily, do not have safe batteries, and might transmit on frequencies other than the ones specified (called spurious emissions). That said, if you can't afford to spend a lot of money, the [Baofeng UV-5X](https://www.baofengradio.com/collections/uv-series/products/uv-5x) (GMRS) and the [Baofeng UV-5R](https://www.baofengradio.com/products/uv-5r) (ham) seem to be the most recommended. Just remember, you get what you pay for 🤷🏻.
 
 ## Accessories
 
@@ -96,16 +132,16 @@ You could go crazy with accessories, but the first two categories to look into a
 
 Typically, the stock antennas are fine, but an upgraded antenna will get you more range. Just keep in mind what bands your radio uses when you're buying an antenna. Some companies below are recommended.
 
- * [Signal Stick](https://signalstuff.com/product-category/antennas/signal-sticks/) (this company supports [HamStudy.org](https://hamstudy.org/))
- * [Diamond antennas](https://www.diamondantenna.net/categories/Mobile%20Antennas)
+ * [Signal Stick](https://signalstuff.com/shop/) (this company supports [HamStudy.org](https://hamstudy.org/))
+ * [Diamond antennas](https://www.diamondantenna.net/)
  * [Comet antennas](https://cometantenna.com/)
- * [Smiley Antenna](https://www.smileyantenna.com/shop/amateur-radio)
+ * [Smiley Antenna](https://www.smileyantenna.com/)
 
 ### Batteries
 
 Your batteries are the consumable item when dealing with radios, so you should work out a plan to increase battery life. Keep the following things in mind.
 
-* Most radios have removable battery packs, so you can purchase extra batteries (again, be careful for knock-off batteries)
+* Most radios have removable battery packs, so you can purchase extra batteries (be careful for knock-off batteries)
 * Some radios have an adapter to convert AA or AAA batteries onto the radio
 * Some radios have a 12v adapter
 * Some radios allow charging while in use, some don't
