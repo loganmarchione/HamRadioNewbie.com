@@ -1,5 +1,5 @@
 ---
-title: "Hardware"
+title: "Ham hardware"
 date: "2025-01-31"
 summary: "📻 A brief overview of radios"
 description: "📻 A brief overview of radios"

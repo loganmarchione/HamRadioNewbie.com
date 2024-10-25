@@ -1,8 +1,8 @@
 ---
-title: "The electromagnetic spectrum"
-date: "2024-12-01"
-summary: "🤯 A brief overview of the EM spectrum"
-description: "🤯 A brief overview of the EM spectrum"
+title: "Licensing"
+date: "2024-12-30"
+summary: "🇺🇸 All about licensing"
+description: "🇺🇸 All about licensing"
 toc: true
 readTime: true
 autonumber: true
@@ -14,87 +14,113 @@ hideBackToTop: false
 
 ## Introduction
 
-As Carl Sagan once said: 
+This post is all about the legal mumbo-jumbo around getting licensed. No, not this kind of license.
 
->If you wish to make an apple pie from scratch, you must first invent the universe.
+![meme](/assets/memes/mclovin.jpg)
 
-{{< youtube BkHCO8f2TWs >}}
+You can't stop radio waves from reaching you. Right now, you're being bombarded with radio waves, microwaves, gamma rays, etc... Nothing is stopping you from picking up a radio and tuning to the correct frequency. It's free to listen (i.e., you don't need a license). However, if you want to transmit, you need a license.
 
-This won't be quite *that* complicated, but we do need to talk about the basics of the [electromagnetic spectrum](https://en.wikipedia.org/wiki/Electromagnetic_spectrum) and *how* radio works. I'm not a radio engineer, or a physicist, so we're going to go an inch deep and a foot wide on this topic.
+## Licensing and the FCC
 
-## The electromagnetic spectrum
+There is only a finite amount of electromagnetic spectrum (you can't make more of it), so someone or some entity needs to regulate who uses what pieces. In the U.S., that entity is the [Federal Communications Commission](https://en.wikipedia.org/wiki/Federal_Communications_Commission) (FCC). I'm not going to debate the merits of the FCC and what they do (you can read about that [here](https://www.fcc.gov/about-fcc/what-we-do)), because regardless, they are the ones in charge of the airwaves.
 
-The [electromagnetic spectrum](https://en.wikipedia.org/wiki/Electromagnetic_spectrum) encompasses all electromagnetic radiation, from relatively long radio waves, to microwaves, to visible light, to relatively short gamma rays. Radio (the wave) is just a small slice of the spectrum that includes things like AM/FM radio, television broadcasts, NFC, RFID, WiFi, Bluetooth, 5G, and more.
+An interesting thing is that while countries might have different rules about specific frequencies, physics doesn't care. For example, 146.520 MHz is the same frequency in every country (but not every country will use that frequency for the same thing). So, there are some country-by-country rules, but generally, all ham radio frequencies are the same over the globe.
 
-{{< figure src="20241021_001.png" width="100%" loading="lazy" alt="the electromagnetic spectrum" attr="Image from Wikipedia" attrlink="https://en.wikipedia.org/wiki/Electromagnetic_spectrum">}}
+### Post Office Box
 
-It's important to note that there is no hard boundary between wave types (e.g., radio waves and microwaves). It is a spectrum that slowly spreads from one to the other.
+When you get licensed, your name and address will go into a public FCC database. In fact, on [this page](https://wireless2.fcc.gov/UlsApp/UlsSearch/searchAdvanced.jsp), you can search for registered hams near you (select *Amateur* from the Service Group, then *HA* from the box, then enter your ZIP code).
 
-### Waves
+{{< img src="20241022_001.png" alt="fcc database search" >}}
 
-The energy coming out of an antenna is a wave which travels at the speed of light.
+If you don't want spam from having your information exposed (like WHOIS domain privacy or voter registration), you can rent a [Post Office (PO) Box](https://www.usps.com/manage/po-boxes.htm) from your local Post Office (just prepare to pay about $100/yr for the smallest size).
 
-A cycle is one complete repetition of a wave's shape. In the diagram below, there are two cycles (I've colored them red and blue to make it easier to see).
+### FRN
 
-The number of wave cycles that pass a fixed point in a given amount of time is called frequency. This is measured in cycles per second or Hertz (Hz). In the diagram below, the time between the two green dots is one second. Because two cycles pass in one second, this wave has a frequency of 2 Hz.
+You'll need to register with the FCC to [get your FCC Registration Number (FRN)](https://www.fcc.gov/wireless/support/knowledge-base/universal-licensing-system-uls-resources/getting-fcc-registration). You will need this later when you take your exam.
 
-The distance between two of the same points on wave cycles is called the wavelength. This is measured in meters (m). It is sometimes represented by the symbol λ (lambda).
+If you want a PO Box, you should get that setup *before* you create your FRN. The reason is that if you switch to a PO Box after you get your license, someone could go through your license history and find your old address.
 
-The maximum distance between a wave's resting position and the peak or trough of a wave is called amplitude. This can be measured in different units depending on the type of wave.
+Just a heads up, the FCC website/registration process is garbage (it's the government 🙃). First, read the [instructions](https://www.fcc.gov/wireless/support/knowledge-base/universal-licensing-system-uls-resources/getting-fcc-registration) extremely carefully. You need to register your email/password in their CORES system, then from within there, register a new FRN. Also, I was unable to register from my Linux PC (on Firefox or Chrome), so I had to use Windows for this part (maybe you could change your user agent, I didn't try it). Also, you will need to give the FCC your Social Security Number (SSN).
 
-{{< img src="20241021_002.png" alt="radio wave" >}}
+## The exam
 
-In the diagram below, the time between the two green dots is one second. Because four cycles pass in one second, this wave has a frequency of 4 Hz. You can see how the waves are closer together and more waves will pass in the same amount of time compared to the diagram above.
+VCE
 
-{{< img src="20241021_003.png" alt="radio wave" >}}
+* Technician
+    * 35 multiple-choice questions (must get 26 correct)
+    * grants access to all ham bands above 30MHz and some high-frequency bands
+* General
+    * requires Technician license
+    * 35 multiple-choice questions (must get 26 correct)
+    * grants access to all ham bands
+* Extra
+    * requires General license
+    * 50 multiple-choice questions (must get 37 correct)
 
-Because we're using the metric system, we can use [metric prefixes](https://en.wikipedia.org/wiki/Metric_system) for our units of measurement. For example, frequency could be 1,000 hertz or simply one kilohertz (1 kHz). Wavelength could be .01 meters or simply one centimeter (1 cm).
+Technician radio generally allows use of light-of-sight communication and repeaters. If you want to refract your signal off of the atmosphere, you need to use lower frequencies, which requires the General license.
 
-| Prefix    | Symbol | Factor                       | Power    |
-|-----------|--------|------------------------------|----------|
-| tera      | T      | 1,000,000,000,000            | 10¹²     |
-| giga      | G      | 1,000,000,000                | 10⁹      |
-| mega      | M      | 1,000,000                    | 10⁶      |
-| kilo      | k      | 1,000                        | 10³      |
-| hecto     | h      | 100                          | 10²      |
-| deca      | da     | 10                           | 10¹      |
-| (none)    | (none) | 1                            | 10⁰      |
-| deci      | d      | 0.1                          | 10⁻¹     |
-| centi     | c      | 0.01                         | 10⁻²     |
-| milli     | m      | 0.001                        | 10⁻³     |
-| micro     | μ      | 0.000 001                    | 10⁻⁶     |
-| nano      | n      | 0.000 000 001                | 10⁻⁹     |
-| pico      | p      | 0.000 000 000 001            | 10⁻¹²    |
 
-### Radio waves
 
-The electromagnetic spectrum is a...spectrum. As as such, [radio waves themselves are a spectrum](https://en.wikipedia.org/wiki/Radio_spectrum) from 1 Hz to 3 THz (anything higher is literally a microwave 🧑🏻‍🍳).
+Exam Tools
 
-| Frequency Band                   | Abbreviation | Frequency Range  | Wavelength Range    | Uses                                                                                                     | Comments                                                     |
-|----------------------------------|--------------|------------------|---------------------|----------------------------------------------------------------------------------------------------------|--------------------------------------------------------------|
-| Extremely low frequency          | ELF          | 3–30 Hz          | 10^5^–10^4^ km      | communication with submarines                                                                            | Low frequencies can penetrate oceans and Earth's crust       |
-| Super low frequency              | SLF          | 30–300 Hz        | 10^4^–10^3^ km      | communication with submarines                                                                            |                                                              |
-| Ultra low frequency              | ULF          | 300 Hz – 3 kHz   | 10^3^–100 km        | communication with submarines                                                                            |                                                              |
-| Very low frequency               | VLF          | 3–30 kHz         | 100–10 km           | communication with submarines, navigation, through-the-Earth mine communication, time signals            |                                                              |
-| Low frequency                    | LF           | 30–300 kHz       | 10–1 km             | AM broadcasting, communication with submarines, time signals                                             |                                                              |
-| Medium frequency                 | MF           | 300 kHz – 3 MHz  | 1 km – 100 m        | AM broadcasting, maritime communication                                                                  | Can refract signals off of Earth's atmosphere                |
-| High frequency                   | HF           | 3–30 MHz         | 100–10 m            | Amateur radio, citizen's band (CB) radio, international broadcasting, shortwave radio                    | Can refract signals off of Earth's atmosphere                |
-| Very high frequency              | VHF          | 30–300 MHz       | 10–1 m              | Aircraft communication, FM broadcasting, television                                                      | Here and below (in the table) is line-of-sight communication |
-| Ultra high frequency             | UHF          | 300 MHz – 3 GHz  | 1 m – 100 mm        | Cellular (3G and 4G), FRS, GMRS, radar, television, WiFi (2.4 GHz)                                       |                                                              |
-| Super high frequency             | SHF          | 3–30 GHz         | 100–10 mm           | Cellular (5G), microwave links, radar, WiFi (5 GHz)                                                      |                                                              |
-| Extremely high frequency         | EHF          | 30–300 GHz       | 10–1 mm             | Cellular (5G), millimeter wave scanners, radar                                                           |                                                              |
-| Tremendously high frequency      | THF          | 300 GHz – 3 THz  | 1 mm – 0.1 mm       | Experimental research (check out the [terahertz gap](https://en.wikipedia.org/wiki/Terahertz_radiation)) | THF is this close 🤏🏻 to being heat                           |
+Test online to get immediate results
 
-{{< figure src="20241022_002.png" width="100%" loading="lazy" alt="the radio spectrum" attr="Image from US Department of Transportation" attrlink="https://www.transportation.gov/pnt/what-radio-spectrum">}}
+Photo ID
 
-## Refraction
+Testing fee
 
-In the not-to-scale diagram below, the red and green antennas can communicate with each other via line-of-sight. Remember that unless using a directional antenna, radio waves travel outward in all directions at the speed of light. Because of this, the red and green radios will be able to talk to each other, and in fact, their waves will continue into space forever.
+FCC 605 form
 
-However, the purple radio is blocked by a mountain and the curvature of the Earth. In this case, the green radio can take advantage of a unique property called [refraction](https://en.wikipedia.org/wiki/Refraction). In this case, a lower frequency band can be used to "bounce" the signal off of Earth's atmosphere (it happens in all directions, but for the sake of this diagram, I've only shown it in one). When refraction is used in radio, it is specifically called [skywave](https://en.wikipedia.org/wiki/Skywave).
+FRN - FCC Registration Number
 
-{{< img src="20241022_001.png" alt="refraction" >}}
+Calculator and pencil/paper
+
+### Study resources
+
+https://hamstudy.org/
+
+### After you pass
+
+Pay the $35 fee (10 days)
+
+Call sign in a day or two
+
+Carry your license with you
+
+### The rules
+
+[Part 97 of the FCC rules](https://www.ecfr.gov/current/title-47/chapter-I/subchapter-D/part-97) govern the rules of ham radio. A few key things to point out are below.
+
+* Identify yourself by callsign at the end of every communication and once every 10 minutes (this must be done in English)
+* Non-commercial use only
+* Avoid interference and use the minimum power necessary
+* No swearing
+* No encryption
+* No broadcasting music
+* Even though your radio *can* work on FRS/CB/GMRS bands, you shouldn't use it for that (you should buy a separate radio for that)
+* Ham radio can be used without a license in an emergency
+
+## FRS vs. CB vs. MURS vs. GMRS vs. ham
+
+| Service                                                                                                                                  | Common Usage                   | Max Power  | Frequency Band  | Detachable Antenna  | Repeaters Allowed  | License Required                           |
+|------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------|------------|-----------------|---------------------|--------------------|--------------------------------------------|
+| [FRS (Family Radio Service)](https://www.fcc.gov/wireless/bureau-divisions/mobility-division/family-radio-service-frs)                   | Walkie-talkies (retail stores) | 2 watts    | UHF             | No                  | No                 | No                                         |
+| [CB (Citizen Band)](https://www.fcc.gov/wireless/bureau-divisions/mobility-division/citizens-band-radio-service-cbrs)                    | Trucker radios                 | 4 watts    | HF              | Yes (usually)       | No                 | No                                         |
+| [MURS (Multi-Use Radio Service)](https://www.fcc.gov/wireless/bureau-divisions/mobility-division/multi-use-radio-service-murs)           | Business radios                | 2 watts    | VHF             | Yes (often)         | No                 | No                                         |
+| [GMRS (General Mobile Radio Service)](https://www.fcc.gov/wireless/bureau-divisions/mobility-division/general-mobile-radio-service-gmrs) | Walkie-talkies (marked "GMRS") | 50 watts   | UHF             | Yes (often)         | Yes                | Yes (no test, covers family)               |
+| [Ham Radio (Amateur)](https://www.fcc.gov/wireless/bureau-divisions/mobility-division/amateur-radio-service)                             | Amateur/dual-band radios       | 1500 watts | VHF/UHF         | Yes                 | Yes                | Yes (multiple tests, individual coverage)  |
+
+
+A few more things:
+
+1. FRS, CB, MURS, and GMRS are channelized, meaning you don't tune to a specific frequency, you just tune to a channel (e.g., channel 1). In fact, FRS and GMRS use the same set of channels (meaning FRS and GMRS users will be able to communicate). However, GMRS has more channels and allows the use of repeaters.
+1. With ham radio, the person is licensed, not the radio. For FRS and CB, the manufacturers of radios need to submit their designs to the FCC for approval. That's why you don't need a license to use these radios (because the license is already part of the radio you purchased). With ham radio, the radio is not licensed/certified.
+1. Because ham radio assumes the operator is responsible, you
 
 ## Conclusion
+
+If you're interested, [Jeff Geerling](https://www.jeffgeerling.com/), whose dad is a radio engineer, just got his technician license in late 2023.
+
+{{< youtube PIeavEhUhSw >}}
 
 \-HamRadioNewbie

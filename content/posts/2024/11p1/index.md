@@ -34,7 +34,7 @@ Before you ask, you'll have to read [this page](https://en.wikipedia.org/wiki/Et
 
 ### What am I attempting to do?
 
-I am going to attempt learn about ham radio and obtain the most basic license (the Technician license) from the United States [Federal Communications Commission](https://en.wikipedia.org/wiki/Federal_Communications_Commission) (FCC).
+I am going to attempt learn about ham radio and obtain the most basic license (the Technician license) from the U.S. [Federal Communications Commission](https://en.wikipedia.org/wiki/Federal_Communications_Commission) (FCC).
 
 ## Why
 
@@ -65,7 +65,7 @@ Ham radio is different. While it doesn't have all the advanced features or throu
 
 Ham radio is something that has interested me for a while. It is a good cross-over of my tech-based hobbies, but also requires some real-world physics/math, and will get me out of the house.
 
-I'm lucky enough to live in the northeastern part of the United States. In the US, I don't (yet) have to worry about an oppressive government censoring communication, and the northeastern part generally doesn't have any natural disasters (e.g., hurricanes, fires, floods, tornados, earthquakes, etc...). For me, this will be more of a hobby than anything.
+I'm lucky enough to live in the northeastern part of the U.S., where I don't (yet) have to worry about an oppressive government censoring communication, and the northeastern part generally doesn't have any natural disasters (e.g., hurricanes, fires, floods, tornados, earthquakes, etc...). For me, this will be more of a hobby than anything.
 
 ## How
 
