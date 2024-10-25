@@ -61,4 +61,4 @@ jobs:
 
       - name: Verify files
         run: |
-          apt update && apt-get install -y tree && tree ./public
+          sudo apt update && sudo apt-get install -y tree && tree ./public
