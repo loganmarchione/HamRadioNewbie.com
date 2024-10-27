@@ -57,7 +57,7 @@ VCE
     * requires General license
     * 50 multiple-choice questions (must get 37 correct)
 
-Technician radio generally allows use of light-of-sight communication and repeaters. If you want to refract your signal off of the atmosphere, you need to use lower frequencies, which requires the General license.
+Technician radio generally allows use of light-of-sight communication and repeaters. If you want to reflect your signal off of the atmosphere, you need to use lower frequencies, which requires the General license.
 
 
 

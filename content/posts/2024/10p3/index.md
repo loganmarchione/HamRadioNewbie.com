@@ -1,6 +1,6 @@
 ---
 title: "The electromagnetic spectrum"
-date: "2024-11-30"
+date: "2024-11-28"
 summary: "🤯 A brief overview of the EM spectrum"
 description: "🤯 A brief overview of the EM spectrum"
 toc: true
@@ -20,7 +20,7 @@ As Carl Sagan once said:
 
 {{< youtube BkHCO8f2TWs >}}
 
-This won't be quite *that* complicated, but understanding radio requires a grasp of fundamental physics and the [electromagnetic spectrum](https://en.wikipedia.org/wiki/Electromagnetic_spectrum). I'm not a radio engineer, or a physicist, so we're going to go an inch deep and a foot wide on this topic.
+This won't be quite *that* complicated, but understanding radio requires a grasp of fundamental physics and the [electromagnetic spectrum](https://en.wikipedia.org/wiki/Electromagnetic_spectrum). I'm not a physicist, or a radio engineer, so we're going to go an inch deep and a foot wide on this topic.
 
 ## The electromagnetic spectrum
 
@@ -28,11 +28,11 @@ The [electromagnetic spectrum](https://en.wikipedia.org/wiki/Electromagnetic_spe
 
 {{< figure src="20241021_001.png" width="100%" loading="lazy" alt="the electromagnetic spectrum" attr="Image from Wikipedia" attrlink="https://en.wikipedia.org/wiki/Electromagnetic_spectrum">}}
 
-It's important to note that there is no hard boundary between wave types (e.g., radio waves and microwaves). It's a spectrum that slowly spreads from one to the other.
+It's important to note that there is no hard boundary between wave types (e.g., radio waves and microwaves). It's a spectrum that slowly spreads from type one to the other.
 
 ### Waves
 
-The energy coming out of an antenna is a wave which travels at the speed of light.
+The energy coming out of an antenna is a wave which travels at the speed of light (in a vacuum).
 
 A cycle is one complete repetition of a wave's shape. In the diagram below, there are two cycles (I've colored them red and blue to make it easier to see).
 
@@ -77,8 +77,8 @@ The electromagnetic spectrum is a...spectrum. As such, [radio waves themselves a
 | Ultra low frequency              | ULF          | 300 Hz – 3 kHz   | 10^3^–100 km        | communication with submarines                                                                            |                                                              |
 | Very low frequency               | VLF          | 3–30 kHz         | 100–10 km           | communication with submarines, navigation, through-the-Earth mine communication, time signals            |                                                              |
 | Low frequency                    | LF           | 30–300 kHz       | 10–1 km             | AM broadcasting, communication with submarines, time signals                                             |                                                              |
-| Medium frequency                 | MF           | 300 kHz – 3 MHz  | 1 km – 100 m        | AM broadcasting, maritime communication                                                                  | Can refract signals off of Earth's atmosphere                |
-| High frequency                   | HF           | 3–30 MHz         | 100–10 m            | Amateur radio, citizen's band (CB) radio, international broadcasting, shortwave radio                    | Can refract signals off of Earth's atmosphere                |
+| Medium frequency                 | MF           | 300 kHz – 3 MHz  | 1 km – 100 m        | AM broadcasting, maritime communication                                                                  | Can reflect signals off of Earth's atmosphere                |
+| High frequency                   | HF           | 3–30 MHz         | 100–10 m            | Amateur radio, citizen's band (CB) radio, international broadcasting, shortwave radio                    | Can reflect signals off of Earth's atmosphere                |
 | Very high frequency              | VHF          | 30–300 MHz       | 10–1 m              | Aircraft communication, FM broadcasting, television                                                      | Here and below (in the table) is line-of-sight communication |
 | Ultra high frequency             | UHF          | 300 MHz – 3 GHz  | 1 m – 100 mm        | Cellular (3G and 4G), FRS, GMRS, radar, television, WiFi (2.4 GHz)                                       |                                                              |
 | Super high frequency             | SHF          | 3–30 GHz         | 100–10 mm           | Cellular (5G), microwave links, radar, WiFi (5 GHz)                                                      |                                                              |
@@ -87,49 +87,67 @@ The electromagnetic spectrum is a...spectrum. As such, [radio waves themselves a
 
 {{< figure src="20241022_002.png" width="100%" loading="lazy" alt="the radio spectrum" attr="Image from U.S. Department of Transportation" attrlink="https://www.transportation.gov/pnt/what-radio-spectrum">}}
 
-## Attenuation and penetration
+## Properties of waves
 
-[Attenuation](https://en.wikipedia.org/wiki/Attenuation) refers to the reduction in signal strength of a radio wave over a distance or through a medium. The strength of a wave degrades over distance, even in a vacuum (think of the faint signals of the [Voyager probes](https://en.wikipedia.org/wiki/Voyager_program)). On Earth, although radio waves travel through "thin air", they encounter various obstacles (like air molecules, trees, building, etc...) that can reduce their strength.
+### Attenuation and penetration
 
-Penetration describes the ability of a radio wave to pass through an object. Generally, lower frequency waves can penetrate better due to their longer wavelengths. This is why 2.4GHz WiFi goes further than 5GHz WiFi, and why millimeter wave 5G is easily blocked by almost anything.
+[Attenuation](https://en.wikipedia.org/wiki/Attenuation) refers to the reduction in signal strength of a radio wave over a distance or through a medium, often due to scattering or absorption. Even in a vacuum (like in space), the strength of a wave degrades (think of the faint signals of the [Voyager probes](https://en.wikipedia.org/wiki/Voyager_program)). On Earth, although radio waves travel through "thin air", they encounter various obstacles (like air molecules, trees, building, etc...) that can reduce their strength.
+
+[Penetration](https://en.wikipedia.org/wiki/Penetration_depth) describes how deeply a wave can travel into a medium before it is significantly attenuated. Generally, lower frequency waves can penetrate better due to their longer wavelengths. This is why 2.4GHz WiFi penetrates your house's walls better than 5GHz WiFi, and why millimeter wave 5G is easily blocked by almost anything (see below).
 
 {{< youtube 4PLhxYIDwJs>}}
 
-## Modulation
+### Modulation
 
-[Modulation](https://en.wikipedia.org/wiki/Modulation) is the process of changing a wave, usually to encode information (voice, data, etc...). Modulation allows signals to travel farther and with less interference, and it helps separate different signals transmitted over the same medium. It's essential for radio communication, as it helps convert audio or data into a form that can be transmitted over electromagnetic waves.
+[Modulation](https://en.wikipedia.org/wiki/Modulation) is the process of changing a wave, usually to encode information (voice, data, etc...). Modulation allows signals to travel farther and with less interference, and it helps to separate different signals transmitted over the same medium. It's essential for radio communication, as it helps convert audio or data into a form that can be transmitted over radio waves.
+
+Modulation works by taking a constant frequency wave (called a carrier wave) and laying another wave containing the information to be transmitted (called the modulating wave) on top of it. When they waves "mix", you're left with the resulting wave.
 
 In radio, we're mainly concerned about three types of modulation: amplitude, frequency, and phase modulation.
 
-Amplitude modulation (AM) encodes information by changing the amplitude (strength) of a wave, while frequency remains constant. Frequency modulation (FM) encodes information by changing the frequency (waves per unit of time) of a wave, while the amplitude stays constant. AM is simpler, more susceptible to interference, and travels further, while FM offers better sound quality and resistance to interference, but doesn't travel as far.
+#### AM/FM
+
+[Amplitude modulation (AM)](https://en.wikipedia.org/wiki/Amplitude_modulation) encodes information by changing the amplitude (strength) of a wave, while frequency remains constant. [Frequency modulation (FM)](https://en.wikipedia.org/wiki/Frequency_modulation) encodes information by changing the frequency (waves per unit of time) of a wave, while the amplitude stays constant. AM is simpler, more susceptible to interference, and travels further, while FM offers better sound quality and resistance to interference, but doesn't travel as far (this is why FM radio in your car always sounds better than AM).
+
+In the diagram below, note the differences between the resulting waves.
+
+{{< figure src="20241027_001.jpg" width="100%" loading="lazy" alt="am and fm modulation" attr="Image from Tait Radio Academy" attrlink="https://www.taitradioacademy.com/topic/how-does-modulation-work-1-1/">}}
+
+The diagram below is an animated version of the same AM/FM concept.
 
 {{< figure src="20241025_001.gif" width="500px" loading="lazy" alt="am and fm modulation" attr="Image from Wikipedia" attrlink="https://en.wikipedia.org/wiki/Modulation">}}
 
-Phase is basically where a wave is in time. While not really useful by itself, when you have two waves that are not in phase with each other (i.e., they're not overlapping), you can measure the difference between them (called phase difference or phase shift). In the diagram below, the purple and green waves are out of phase.
+#### Phase
+
+Phase is basically *where* a wave is in time. While not really useful by itself, when you have two waves that are not in phase with each other (i.e., they're not overlapping), you can measure the difference between them (called phase difference or phase shift). In the diagram below, the purple and green waves are out of phase.
 
 {{< img src="20241025_002.png" alt="radio wave" >}}
 
-Phase modulation (PM) encodes information by moving waves "forward" or "backward" along the time axis to encode data.
+[Phase modulation (PM)](https://en.wikipedia.org/wiki/Phase_modulation) encodes information by moving waves "forward" or "backward" (i.e., shifting) along the time axis to encode data.
 
 {{< figure src="20241025_003.gif" width="500px" loading="lazy" alt="phase modulation" attr="Image from Vassar College" attrlink="https://pages.vassar.edu/magnes/page/24/">}}
 
-## Refraction
+### Reflection and refraction
 
-In the not-to-scale diagram below, the red and green antennas can communicate with each other via line-of-sight. Remember that unless using a directional antenna, radio waves travel outward in all directions at the speed of light. Because of this, the red and green radios will be able to talk to each other, and in fact, their waves will continue into space forever.
+Remember that, unless using a directional antenna, radio waves travel outward in all directions at the speed of light. In the not-to-scale diagram below, the red and green antennas can communicate with each other via line-of-sight. However, the purple radio is blocked by a mountain and the curvature of the Earth.
 
-However, the purple radio is blocked by a mountain and the curvature of the Earth. In this case, the green radio can take advantage of a unique property called [refraction](https://en.wikipedia.org/wiki/Refraction). In this case, a lower frequency band can be used to "bounce" the signal off of Earth's atmosphere (it happens in all directions, but for the sake of this diagram, I've only shown it in one). When refraction is used in radio, it is specifically called [skywave](https://en.wikipedia.org/wiki/Skywave).
+In this case, the green radio can use [skywave propagation](https://en.wikipedia.org/wiki/Skywave) to communicate to the purple radio. Skywave relies on two key phenomena: [reflection](https://en.wikipedia.org/wiki/Reflection_(physics)) (the bouncing of waves off surfaces) and [refraction](https://en.wikipedia.org/wiki/Refraction) (the bending of waves as they pass through different mediums). In this process, radio waves can be redirected off the Earth's atmosphere, allowing communication beyond the horizon or obstacles. Typically, lower frequency bands are favored for skywave, as they reflect and refract more effectively. Although the waves reflect and refract in all directions, this diagram simplifies the concept by illustrating just one path. 
 
-{{< img src="20241022_001.png" alt="refraction" >}}
+{{< img src="20241022_001.png" alt="skywave" >}}
 
-### Day vs night
+Reflection and refraction are one of the main ways that ham radio operators can increase their signal's distance. When you see videos of hams talking across oceans, they're using reflection and refraction to do it.
 
-The effectiveness of skywave propagation changes throughout the day due to changes in Earth's [ionosphere](https://en.wikipedia.org/wiki/Ionosphere), which is the ionized part of Earth's upper atmosphere. During the day, the Sun's UV radiation ionizes the ionosphere more, causing lower frequency radio waves to be absorbed by the atmosphere (making them less-effective for long-distance communication). At night, without the Sun's UV radiation, the ionosphere is less ionized, which allows these lower frequency radio waves to be refracted back towards Earth, allowing them to travel farther.
+{{< youtube X0y55Meu0NY >}}
 
-### Solar cycle 
-In addition to the daily cycle, the [solar cycle](https://en.wikipedia.org/wiki/Solar_cycle) also plays a significant role in radio wave propagation. The solar cycle, first observed in 1755 (called cycle one), is a cycle of changes every 11-ish years in the Sun's activity, including number of sunspots, solar flares, etc... Basically, during the peak of the solar cycle, increased solar activity affects the ionosphere in a way that enhances radio wave refraction (allowing radio waves to travel further). We are currently in solar cycle 25, with the peak of the cycle being expected in 2025 or 2026 (which is when radio waves will go the furthest).
+#### Day vs night
+
+The effectiveness of skywave changes throughout the day due to changes in Earth's [ionosphere](https://en.wikipedia.org/wiki/Ionosphere), which is the ionized part of Earth's upper atmosphere. During the day, the Sun's UV radiation ionizes the ionosphere more, causing lower frequency radio waves to be absorbed by the atmosphere (making them less-effective for long-distance communication). At night, without the Sun's UV radiation, the ionosphere is less ionized, which allows these lower frequency radio waves to be reflected back towards Earth, allowing them to travel farther.
+
+#### Solar cycle
+In addition to the daily cycle, the [solar cycle](https://en.wikipedia.org/wiki/Solar_cycle) also plays a significant role in radio wave propagation. The solar cycle, first observed in 1755 (called cycle one), is a cycle of changes every 11-ish years in the Sun's activity, including number of sunspots, solar flares, etc... Basically, during the peak of the solar cycle, increased solar activity affects the ionosphere in a way that enhances skywave (allowing radio waves to travel further). We are currently in solar cycle 25, with the peak of the cycle being expected in 2025 or 2026 (which is when radio waves will go the furthest).
 
 ## Conclusion
 
-I know this was probably a dry post, but it contains the absolute basics you'll need to get started with this hobby and some of it will be on the Technician exam. Plus, it doesn't hurt to have a understand (however basic) of the world around you.
+I know this was probably a dry post, but it contains the absolute basics you'll need to get started with this hobby and some of it will be on the Technician exam. Plus, it doesn't hurt to have an understanding (however basic) of the world around you.
 
 \-HamRadioNewbie

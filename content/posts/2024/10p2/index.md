@@ -81,6 +81,8 @@ I plan on using a number of tools to study for the Technician exam.
 * Books - There are tons of books on the subject, so I may pickup [one that is highly recommended](https://www.amazon.com/2022-2026-Technician-Class-WB6NOA-Gordon/dp/0945053010)
 * Note-taking - I self-host a [Joplin](https://joplinapp.org/) instance at home, so I will take notes in that (but if you don't run Joplin, a pencil and paper works fine too!)
 
+However, this blog is **not** going to be a study guide. I'm going to cover some basics here, but don't count on this blog alone to be everything you need to pass your Technician exam.
+
 ## Conclusion
 
 Again, this is just an intro and I'm not in a rush. Looking forward to next time!
