@@ -1,6 +1,6 @@
 ---
 title: "The electromagnetic spectrum"
-date: "2024-11-28"
+date: "2024-10-28"
 summary: "🤯 A brief overview of the EM spectrum"
 description: "🤯 A brief overview of the EM spectrum"
 toc: true
@@ -20,7 +20,7 @@ As Carl Sagan once said:
 
 {{< youtube BkHCO8f2TWs >}}
 
-This won't be quite *that* complicated, but understanding radio requires a grasp of fundamental physics and the [electromagnetic spectrum](https://en.wikipedia.org/wiki/Electromagnetic_spectrum). I'm not a physicist, or a radio engineer, so we're going to go an inch deep and a foot wide on this topic.
+This won't be quite *that* complicated, but we do need to start with the basics. Understanding radio requires a grasp of fundamental [physics](https://en.wikipedia.org/wiki/Physics) and the [electromagnetic spectrum](https://en.wikipedia.org/wiki/Electromagnetic_spectrum). I'm not a physicist, or a radio engineer, so we're going to go an inch deep and a foot wide on this topic.
 
 ## The electromagnetic spectrum
 
