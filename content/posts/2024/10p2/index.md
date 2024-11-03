@@ -20,7 +20,7 @@ This post will attempt to explain what I'm doing, why I'm doing it, and how I pl
 
 ### What is radio?
 
-I'll dive more into this in a later post, but the [electromagnetic spectrum](https://en.wikipedia.org/wiki/Electromagnetic_spectrum) encompasses all electromagnetic radiation, from relatively long radio waves, to microwaves, to visible light, to relatively short gamma rays. Radio (the wave) is just a small slice of the spectrum that includes things like AM/FM radio, television broadcasts, NFC, RFID, WiFi, Bluetooth, and more.
+I'll dive more into this in a later post, but the [electromagnetic spectrum](https://en.wikipedia.org/wiki/Electromagnetic_spectrum) encompasses all electromagnetic radiation, from relatively long radio waves, to microwaves, to visible light, to relatively short gamma rays. Radio (the wave) is just a small slice of the spectrum that includes things like AM/FM radio, television broadcasts, NFC, RFID, WiFi, Bluetooth, 5G, and more.
 
 {{< figure src="20241021_001.png" width="100%" loading="lazy" alt="the electromagnetic spectrum" attr="Image from Wikipedia" attrlink="https://en.wikipedia.org/wiki/Electromagnetic_spectrum">}}
 
@@ -80,6 +80,8 @@ I plan on using a number of tools to study for the Technician exam.
 * [The American Radio Relay League (AARL)](https://www.arrl.org/) - A US-based non-commercial organization that has lots of useful info
 * Books - There are tons of books on the subject, so I may pickup [one that is highly recommended](https://www.amazon.com/2022-2026-Technician-Class-WB6NOA-Gordon/dp/0945053010)
 * Note-taking - I self-host a [Joplin](https://joplinapp.org/) instance at home, so I will take notes in that (but if you don't run Joplin, a pencil and paper works fine too!)
+
+However, this blog is **not** going to be a study guide. I'm going to cover some basics here, but don't count on this blog alone to be everything you need to pass your Technician exam.
 
 ## Conclusion
 
