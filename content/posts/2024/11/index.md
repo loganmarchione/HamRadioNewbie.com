@@ -1,6 +1,6 @@
 ---
 title: "The electromagnetic spectrum"
-date: "2024-10-28"
+date: "2024-11-03"
 summary: "🤯 A brief overview of the EM spectrum"
 description: "🤯 A brief overview of the EM spectrum"
 toc: true
