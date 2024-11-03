@@ -83,7 +83,9 @@ The electromagnetic spectrum is a...spectrum. As such, [radio waves themselves a
 | Ultra high frequency             | UHF          | 300 MHz – 3 GHz  | 1 m – 100 mm        | Cellular (3G and 4G), FRS, GMRS, radar, television, WiFi (2.4 GHz)                                       |                                                              |
 | Super high frequency             | SHF          | 3–30 GHz         | 100–10 mm           | Cellular (5G), microwave links, radar, WiFi (5 GHz)                                                      |                                                              |
 | Extremely high frequency         | EHF          | 30–300 GHz       | 10–1 mm             | Cellular (5G), millimeter wave scanners, radar                                                           |                                                              |
-| Tremendously high frequency      | THF          | 300 GHz – 3 THz  | 1 mm – 0.1 mm       | Experimental research (check out the [terahertz gap](https://en.wikipedia.org/wiki/Terahertz_radiation)) | THF is this close 🤏🏻 to being heat                           |
+| Tremendously high frequency      | THF          | 300 GHz – 3 THz  | 1 mm – 0.1 mm       | Experimental research (check out the [terahertz gap](https://en.wikipedia.org/wiki/Terahertz_radiation)) | THF is this close 🤏🏻 to being a microwave                    |
+
+The diagram below visualizes a portion of the radio spectrum.
 
 {{< figure src="20241022_002.png" width="100%" loading="lazy" alt="the radio spectrum" attr="Image from U.S. Department of Transportation" attrlink="https://www.transportation.gov/pnt/what-radio-spectrum">}}
 
@@ -91,7 +93,7 @@ The electromagnetic spectrum is a...spectrum. As such, [radio waves themselves a
 
 ### Attenuation and penetration
 
-[Attenuation](https://en.wikipedia.org/wiki/Attenuation) refers to the reduction in signal strength of a radio wave over a distance or through a medium, often due to scattering or absorption. Even in a vacuum (like in space), the strength of a wave degrades (think of the faint signals of the [Voyager probes](https://en.wikipedia.org/wiki/Voyager_program)). On Earth, although radio waves travel through "thin air", they encounter various obstacles (like air molecules, trees, building, etc...) that can reduce their strength.
+[Attenuation](https://en.wikipedia.org/wiki/Attenuation) refers to the reduction in signal strength of a radio wave over a distance or through a medium, often due to scattering or absorption. Even in a vacuum (like in space), the strength of a wave degrades (think of the faint signals of the [Voyager probes](https://en.wikipedia.org/wiki/Voyager_program)). On Earth, although radio waves travel through "thin air", they encounter various obstacles (like air molecules, trees, buildings, etc...) that can reduce their strength.
 
 [Penetration](https://en.wikipedia.org/wiki/Penetration_depth) describes how deeply a wave can travel into a medium before it is significantly attenuated. Generally, lower frequency waves can penetrate better due to their longer wavelengths. This is why 2.4GHz WiFi penetrates your house's walls better than 5GHz WiFi, and why millimeter wave 5G is easily blocked by almost anything (see below).
 
@@ -101,7 +103,7 @@ The electromagnetic spectrum is a...spectrum. As such, [radio waves themselves a
 
 [Modulation](https://en.wikipedia.org/wiki/Modulation) is the process of changing a wave, usually to encode information (voice, data, etc...). Modulation allows signals to travel farther and with less interference, and it helps to separate different signals transmitted over the same medium. It's essential for radio communication, as it helps convert audio or data into a form that can be transmitted over radio waves.
 
-Modulation works by taking a constant frequency wave (called a carrier wave) and laying another wave containing the information to be transmitted (called the modulating wave) on top of it. When they waves "mix", you're left with the resulting wave.
+Modulation works by taking a constant frequency wave (called a carrier wave) and laying another wave containing the information to be transmitted (called the modulating wave) on top of it. When the waves "mix", you're left with the resulting wave.
 
 In radio, we're mainly concerned about three types of modulation: amplitude, frequency, and phase modulation.
 
