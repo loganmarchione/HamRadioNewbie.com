@@ -82,7 +82,7 @@ GMRS radios all tend to have the same basic features (channels, privacy codes, N
 * Active Noise Cancelling (ANC)
 * Software-programmable
 
-### Ham radio recommendations
+### Ham radio
 
 After some research, below are some recommended radios for newbies (like me).
 

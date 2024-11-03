@@ -107,15 +107,15 @@ Carry your license with you
 | [FRS (Family Radio Service)](https://www.fcc.gov/wireless/bureau-divisions/mobility-division/family-radio-service-frs)                   | Walkie-talkies (retail stores) | 2 watts    | UHF             | No                  | No                 | No                                         |
 | [CB (Citizen Band)](https://www.fcc.gov/wireless/bureau-divisions/mobility-division/citizens-band-radio-service-cbrs)                    | Trucker radios                 | 4 watts    | HF              | Yes (often)         | No                 | No                                         |
 | [MURS (Multi-Use Radio Service)](https://www.fcc.gov/wireless/bureau-divisions/mobility-division/multi-use-radio-service-murs)           | Business radios                | 2 watts    | VHF             | Yes (often)         | No                 | No                                         |
-| [GMRS (General Mobile Radio Service)](https://www.fcc.gov/wireless/bureau-divisions/mobility-division/general-mobile-radio-service-gmrs) | Walkie-talkies (marked "GMRS") | 50 watts   | UHF             | Yes (often)         | Yes                | Yes (no test, family coverage)             |
+| [GMRS (General Mobile Radio Service)](https://www.fcc.gov/wireless/bureau-divisions/mobility-division/general-mobile-radio-service-gmrs) | Outdoor/backcountry exploring  | 50 watts   | UHF             | Yes (often)         | Yes                | Yes (no test, family coverage)             |
 | [Amateur Radio (ham)](https://www.fcc.gov/wireless/bureau-divisions/mobility-division/amateur-radio-service)                             | Amateur/dual-band radios       | 1500 watts | VHF/UHF         | Yes                 | Yes                | Yes (multiple tests, individual coverage)  |
 
 
 A few more things:
 
 1. FRS, CB, MURS, and GMRS are channelized, meaning you don't tune to a specific frequency, you just tune to a channel (e.g., channel 1). In fact, FRS and GMRS use the same set of channels (meaning FRS and GMRS users will be able to communicate). However, GMRS has more channels and allows the use of repeaters.
-1. For FRS, CB, and MURS, the manufacturers of radios need to submit their designs to the FCC for approval. That's why you don't need a license to use these radios (because the license is already part of the radio you purchased). With GMRS and ham radio, the person is licensed, not the radio. 
-1. Because ham radio is not channelized and and allows up to 1500 watts of power, the FCC assumes that the ham radio operator is knowledgeable about radio and responsible for their actions (that's why there is a test).
+1. For FRS, CB, and MURS, the manufacturers of radios need to submit their designs to the FCC for approval. That's why you don't need a license to use these radios (because the license is already part of the radio you purchased). With GMRS, the radio and the person are licensed. However, with ham radio, only the person is licensed. This means that a ham operator could build a radio from scratch because there is no restriction on the hardware.
+1. Because ham radio is not channelized and and allows up to 1500 watts of power, the FCC assumes that the ham radio operator is knowledgeable about radio and is responsible for their own actions (that's why there is a test).
 
 ## GMRS license
 
