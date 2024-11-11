@@ -107,7 +107,15 @@ https://www.qrz.com/jumpstart/account-required
 * SMA female (requires SMA male antenna)
 * Li-ion battery pack
 * Aluminum body
-* Submersible
+* JIS7 rating (submersible)
+
+[Icom ID-50A](https://www.icomamerica.com/lineup/products/ID-50A/) ~$400
+
+* Dual-band (144/430 MHz)
+* SMA female (requires SMA male antenna)
+* Li-ion battery pack
+* Bluetooth, D-STAR, microSD, USB-C, GPS, etc...
+* IPX7 rating (waterproof but not dustproof)
 
 [Kenwood TH-D75A](https://www.kenwood.com/usa/com/amateur/th-d75a/) ~ $750 (jk lol 😜)
 
@@ -115,10 +123,15 @@ https://www.qrz.com/jumpstart/account-required
 * SMA female (requires SMA male antenna)
 * Li-ion battery pack
 * Bluetooth, D-STAR, microSD, USB-C, APRS, GPS, text messaging, color screen
+* IP54 rating (splashproof)
 
-You can check out more recommendations as-of 2023 below.
+You can check out more recommendations as-of 2023...
 
 {{< youtube 2EZFa-2HzFI >}}
+
+...and 2024.
+
+{{< youtube 7mscWPjt0xk >}}
 
 ### About Chinese radios
 
@@ -153,6 +166,10 @@ A speaker-mic is a plug-in device that gives you a handheld speaker+microphone c
 {{< img src="20241021_005.jpg" alt="speaker-mic" >}}
 
 ## What did I purchase
+
+### GMRS
+
+### Ham radio
 
 I purchased the items below. I chose the Yaesu VX-6R because it had the extra band, uses Li-ion batteries, and is waterproof. I guess time will tell if it was worth the extra $100 over the FT-60R 🤷🏻.
 
