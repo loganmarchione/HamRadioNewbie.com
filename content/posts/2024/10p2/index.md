@@ -44,9 +44,14 @@ I am going to attempt learn about ham radio and obtain the most basic license (t
 
 I've worked in IT for over a decade and still can't find words to express how amazing digital technology is. As the famous tweets say:
 
+> if you ever code something that "feels like a hack but it works," just remember that a CPU is literally a rock that we tricked into thinking ([source](https://twitter.com/daisyowl/status/841802094361235456?ref_src=twsrc%5Etfw))
+
+> not to oversimplify: first you have to flatten the rock and put lightning inside it ([source](https://twitter.com/daisyowl/status/841806379962646532?ref_src=twsrc%5Etfw))
+<!--
 {{< twitter user="daisyowl" id="841802094361235456" >}}
 
 {{< twitter user="daisyowl" id="841806379962646532" >}}
+-->
 
 Digital technology has become so ubiquitous that we take it for granted. Without a doubt, the internet and cell phones have forever changed the way we communicate. For most people now, the internet and the cell phone are their main forms of communication (and I'm not saying this needs to change).
 
