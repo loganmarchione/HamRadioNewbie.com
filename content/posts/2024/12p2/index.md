@@ -1,6 +1,6 @@
 ---
 title: "Why GMRS is the best place to start"
-date: "2024-12-30"
+date: "2024-12-15"
 summary: "📻 Is GMRS the gateway drug?"
 description: "📻 Is GMRS the gateway drug?"
 toc: true
@@ -45,12 +45,13 @@ GMRS is an "upgraded" FRS radio, but with none of the drawbacks (except filling 
 
 * Requires a license, but no studying and no test (like getting a fishing license)
 * Compatible with FRS radios (this means anyone can run to the store and pickup a pair of FRS radios for $25 to talk to you)
+* Repeaters available to increase range
+* Detachable antennas to increase range
+* Higher power than FRS
 * Simple to use because it's channelized (no memorizing frequencies)
-* Repeaters available
-* Detachable antennas to increase range/quality
 
 ## Conclusion
 
-I'm not saying that GMRS is going to save you in an emergency, but for getting started, I think it's the best balance of features, power, and convenience for normal people.
+I'm not saying that GMRS has the most power, or the most features, or is going to save you in an emergency, but for getting started, I think it's the best balance of features, power, and convenience for normal people.
 
 \-HamRadioNewbie

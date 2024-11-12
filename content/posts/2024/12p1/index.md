@@ -22,7 +22,7 @@ You can't stop radio waves from reaching you. Right now, you're being bombarded 
 
 ## Licensing and the FCC
 
-There is only a finite amount of electromagnetic spectrum (you can't make more of it), so someone or some entity needs to regulate who uses what pieces. In the U.S., that entity is the [Federal Communications Commission](https://en.wikipedia.org/wiki/Federal_Communications_Commission) (FCC). I'm not going to debate the merits of the FCC and what they do (you can read about that [here](https://www.fcc.gov/about-fcc/what-we-do)), because regardless, they are the ones in charge of the airwaves.
+There is only a finite amount of electromagnetic spectrum (you can't make more of it), so someone or some entity needs to regulate who uses what pieces of that spectrum. In the U.S., that entity is the [Federal Communications Commission](https://en.wikipedia.org/wiki/Federal_Communications_Commission) (FCC). I'm not going to debate the merits of the FCC and what they do (you can read about that [here](https://www.fcc.gov/about-fcc/what-we-do)), because regardless, they are the ones in charge of the airwaves.
 
 An interesting thing is that while countries might have different rules about specific frequencies, physics doesn't care. For example, 146.520 MHz is the same frequency in every country (but not every country will use that frequency for the same thing). So, there are some country-by-country rules, but generally, all ham radio frequencies are the same over the globe.
 
@@ -42,9 +42,32 @@ If you want a PO Box, you should get that setup *before* you create your FRN. Th
 
 Just a heads up, the FCC website/registration process is garbage (it's the government 🙃). First, read the [instructions](https://www.fcc.gov/wireless/support/knowledge-base/universal-licensing-system-uls-resources/getting-fcc-registration) extremely carefully. You need to register your email/password in their CORES system, then from within there, register a new FRN. Also, I was unable to register from my Linux PC (on Firefox or Chrome), so I had to use Windows for this part (maybe you could change your user agent, I didn't try it). Also, you will need to give the FCC your Social Security Number (SSN).
 
+## FRS vs. CB vs. MURS vs. GMRS vs. ham
+
+There are many different types of radios, each with different qualities, and not all of them require a license to use.
+
+| Service                                                                                                                                  | Common Usage                   | Max Power  | Frequency Band  | Detachable Antenna  | Repeaters Allowed  | License Required                           |
+|------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------|------------|-----------------|---------------------|--------------------|--------------------------------------------|
+| [FRS (Family Radio Service)](https://www.fcc.gov/wireless/bureau-divisions/mobility-division/family-radio-service-frs)                   | Walkie-talkies (retail stores) | 2 watts    | UHF             | No                  | No                 | No                                         |
+| [CB (Citizen Band)](https://www.fcc.gov/wireless/bureau-divisions/mobility-division/citizens-band-radio-service-cbrs)                    | Trucker radios                 | 4 watts    | HF              | Yes (often)         | No                 | No                                         |
+| [MURS (Multi-Use Radio Service)](https://www.fcc.gov/wireless/bureau-divisions/mobility-division/multi-use-radio-service-murs)           | Business radios                | 2 watts    | VHF             | Yes (often)         | No                 | No                                         |
+| [GMRS (General Mobile Radio Service)](https://www.fcc.gov/wireless/bureau-divisions/mobility-division/general-mobile-radio-service-gmrs) | Outdoor/backcountry exploring  | 50 watts   | UHF             | Yes (often)         | Yes                | Yes (no test, family coverage)             |
+| [Amateur Radio (ham)](https://www.fcc.gov/wireless/bureau-divisions/mobility-division/amateur-radio-service)                             | Amateur/dual-band radios       | 1500 watts | VHF/UHF         | Yes                 | Yes                | Yes (multiple tests, individual coverage)  |
+
+
+A few more things:
+
+1. FRS, CB, MURS, and GMRS are channelized, meaning you don't tune to a specific frequency, you just tune to a channel (e.g., channel 1). In fact, FRS and GMRS use the same set of channels (meaning FRS and GMRS users will be able to communicate). However, GMRS has more channels and allows the use of repeaters.
+1. For FRS, CB, and MURS, the manufacturers of radios need to submit their designs to the FCC for approval. That's why you don't need a license to use these radios (because the license is already part of the radio you purchased). With GMRS, the radio **and** the person are licensed. However, with ham radio, **only** the person is licensed. This means that a ham operator could build a radio from scratch because there is no restriction on the hardware.
+1. Because ham radio is not channelized and and allows up to 1500 watts of power, the FCC assumes that the ham radio operator is knowledgeable about radio and is responsible for their own actions (that's why there is a test).
+
+## GMRS license
+
+Up until now, I've mostly been talking about ham radio. However, because there is no test, I applied for my GMRS license and paid the $35 fee. It was very easy, just follow [these instructions](https://www.fcc.gov/wireless/support/knowledge-base/universal-licensing-system-uls-resources/applying-new-license) after you have your FRN (and PO Box) and choose *GMRS* from the dropdown. I got my callsign via email a day or two after the license.
+
 ## The exam
 
-VCE
+There are three levels of ham license, each subsequent license comes with more permissions and available frequencies.
 
 * Technician
     * 35 multiple-choice questions (must get 26 correct)
@@ -57,11 +80,22 @@ VCE
     * requires General license
     * 50 multiple-choice questions (must get 37 correct)
 
-Technician radio generally allows use of light-of-sight communication and repeaters. If you want to reflect your signal off of the atmosphere, you need to use lower frequencies, which requires the General license.
+The Technician license generally allows use of light-of-sight communication and repeaters. If you want to use skywave, you need to use lower frequencies, which requires the General license.
 
+### Study resources
 
+There are tons of free resources for learning (this blog is not a study resource).
 
-Exam Tools
+* [HamStudy.org](https://hamstudy.org/) - This is a great free website and they have an [offline app](https://hamstudy.org/appstore) as well
+* [Ham Radio Crash Course](https://www.youtube.com/@HamRadioCrashCourse) - This is a YouTuber who offers tons of info for free and also has a [video playlist about the Technician exam](https://www.youtube.com/playlist?list=PL1KAjn5rGhixvvb_jMZFWmbP97-t9Kyxk)
+* [The American Radio Relay League (AARL)](https://www.arrl.org/) - A US-based non-commercial organization that has lots of useful info
+* Books - There are tons of books on the subject, so I may pickup [one that is highly recommended](https://www.amazon.com/2022-2026-Technician-Class-WB6NOA-Gordon/dp/0945053010)
+
+### Taking the test
+
+The test consists of a pool of questions, and your questions are chosen at random from the pool. The pool of questions changes every four years (the current pool is from 2022-2026).
+
+In the past, the exam was proctored in-person by Volunteer Consulting Engineers (VCEs). With COVID-19, the FCC now allows online testing (it's still proctored by VCEs, but it's online now).
 
 Test online to get immediate results
 
@@ -75,15 +109,11 @@ FRN - FCC Registration Number
 
 Calculator and pencil/paper
 
-### Study resources
-
-https://hamstudy.org/
-
 ### After you pass
 
 Pay the $35 fee (10 days)
 
-Call sign in a day or two
+Callsign in a day or two
 
 Carry your license with you
 
@@ -99,27 +129,6 @@ Carry your license with you
 * No broadcasting music
 * Although your ham radio *can* work on FRS/CB/GMRS bands, you shouldn't use it for that (you should buy a separate radio for that)
 * Ham radio can be used without a license in an emergency
-
-## FRS vs. CB vs. MURS vs. GMRS vs. ham
-
-| Service                                                                                                                                  | Common Usage                   | Max Power  | Frequency Band  | Detachable Antenna  | Repeaters Allowed  | License Required                           |
-|------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------|------------|-----------------|---------------------|--------------------|--------------------------------------------|
-| [FRS (Family Radio Service)](https://www.fcc.gov/wireless/bureau-divisions/mobility-division/family-radio-service-frs)                   | Walkie-talkies (retail stores) | 2 watts    | UHF             | No                  | No                 | No                                         |
-| [CB (Citizen Band)](https://www.fcc.gov/wireless/bureau-divisions/mobility-division/citizens-band-radio-service-cbrs)                    | Trucker radios                 | 4 watts    | HF              | Yes (often)         | No                 | No                                         |
-| [MURS (Multi-Use Radio Service)](https://www.fcc.gov/wireless/bureau-divisions/mobility-division/multi-use-radio-service-murs)           | Business radios                | 2 watts    | VHF             | Yes (often)         | No                 | No                                         |
-| [GMRS (General Mobile Radio Service)](https://www.fcc.gov/wireless/bureau-divisions/mobility-division/general-mobile-radio-service-gmrs) | Outdoor/backcountry exploring  | 50 watts   | UHF             | Yes (often)         | Yes                | Yes (no test, family coverage)             |
-| [Amateur Radio (ham)](https://www.fcc.gov/wireless/bureau-divisions/mobility-division/amateur-radio-service)                             | Amateur/dual-band radios       | 1500 watts | VHF/UHF         | Yes                 | Yes                | Yes (multiple tests, individual coverage)  |
-
-
-A few more things:
-
-1. FRS, CB, MURS, and GMRS are channelized, meaning you don't tune to a specific frequency, you just tune to a channel (e.g., channel 1). In fact, FRS and GMRS use the same set of channels (meaning FRS and GMRS users will be able to communicate). However, GMRS has more channels and allows the use of repeaters.
-1. For FRS, CB, and MURS, the manufacturers of radios need to submit their designs to the FCC for approval. That's why you don't need a license to use these radios (because the license is already part of the radio you purchased). With GMRS, the radio and the person are licensed. However, with ham radio, only the person is licensed. This means that a ham operator could build a radio from scratch because there is no restriction on the hardware.
-1. Because ham radio is not channelized and and allows up to 1500 watts of power, the FCC assumes that the ham radio operator is knowledgeable about radio and is responsible for their own actions (that's why there is a test).
-
-## GMRS license
-
-I applied for my GMRS license and paid the $35 fee. It was very easy, just follow [these instructions](https://www.fcc.gov/wireless/support/knowledge-base/universal-licensing-system-uls-resources/applying-new-license) after you have your FRN (and PO Box) and choose *GMRS* from the dropdown.
 
 ## Common frequencies
 

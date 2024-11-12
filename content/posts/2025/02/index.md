@@ -36,6 +36,10 @@ Script goes like this:
 * Wait for five minutes
 * Repeat every three hours
 
+## SWR
+
+1:1 or lower
+
 ## Conclusion
 
 \-HamRadioNewbie

@@ -88,7 +88,7 @@ From what I can tell, almost all GMRS radios all tend to have the same basic fea
 
 ### Ham radio
 
-After some research, below are some recommended radios for newbies (like me).
+After some research, below arefi some recommended radios for newbies (like me).
 
 [QRZ-1](https://www.qrz.com/jumpstart/account-required) $0
 
