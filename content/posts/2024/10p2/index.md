@@ -77,7 +77,7 @@ I plan on using a number of tools to study for the Technician exam.
 
 * [HamStudy.org](https://hamstudy.org/) - This is a great free website and they have an [offline app](https://hamstudy.org/appstore) as well
 * [Ham Radio Crash Course](https://www.youtube.com/@HamRadioCrashCourse) - This is a YouTuber who offers tons of info for free and also has a [video playlist about the Technician exam](https://www.youtube.com/playlist?list=PL1KAjn5rGhixvvb_jMZFWmbP97-t9Kyxk)
-* [The American Radio Relay League (AARL)](https://www.arrl.org/) - A US-based non-commercial organization that has lots of useful info
+* [The American Radio Relay League (ARRL)](https://www.arrl.org/) - A US-based non-commercial organization that has lots of useful info
 * Books - There are tons of books on the subject, so I may pickup [one that is highly recommended](https://www.amazon.com/2022-2026-Technician-Class-WB6NOA-Gordon/dp/0945053010)
 * Note-taking - I self-host a [Joplin](https://joplinapp.org/) instance at home, so I will take notes in that (but if you don't run Joplin, a pencil and paper works fine too!)
 
