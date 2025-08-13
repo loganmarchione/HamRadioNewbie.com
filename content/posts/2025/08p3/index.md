@@ -1,6 +1,6 @@
 ---
 title: "Hardware"
-date: "2025-01-31"
+date: "2025-08-31"
 summary: "📻 A brief overview of radios"
 description: "📻 A brief overview of radios"
 toc: true
@@ -50,7 +50,7 @@ I have read online to avoid the cheaper Chinese radios (e.g., Baofeng/BTECH Talk
 
 ### GMRS
 
-From what I can tell, almost all GMRS radios all tend to have the same basic features (channels, privacy codes, NOAA weather alerts, etc...), with the only differences being battery composition (Ni–MH vs Li-ion), waterproofing level, etc... Basically, it comes down to a decision of how tough you need your radio to be. Below are some GMRS radios that seem to be recommended.
+From what I can tell, almost all GMRS radios all tend to have the same basic features (channels, privacy codes, NOAA weather alerts, etc...), with the only differences being user interface, battery composition (Ni–MH vs Li-ion), waterproofing level, etc... Below are some GMRS radios that seem to be recommended.
 
 [Wouxun KG-935G Plus](https://www.buytwowayradios.com/wouxun-kg-935g-plus.html) ~$150
 
@@ -88,7 +88,7 @@ From what I can tell, almost all GMRS radios all tend to have the same basic fea
 
 ### Ham radio
 
-After some research, below arefi some recommended radios for newbies (like me).
+After some research, below are some recommended radios for newbies (like me).
 
 [QRZ-1](https://www.qrz.com/jumpstart/account-required) $0
 
@@ -171,6 +171,13 @@ A speaker-mic is a plug-in device that gives you a handheld speaker+microphone c
 ## What did I purchase
 
 ### GMRS
+
+I purchased the items below. I liked the idea of the detachable antenna of the Rocky Talkie, but didn't like the interface (I prefer the menu system). I also purchased the USB programming cable so that I can program the GXT67 PRO from my computer (the software seems to be Windows-only).
+
+| Item                                                                                                                       | Quantity | Price | Comments                    |
+|----------------------------------------------------------------------------------------------------------------------------|----------|-------|-----------------------------|
+| [Midland GXT67 PRO](https://midlandusa.com/collections/gxt-walkie-talkie/products/gxt-gmrs-5-watt-two-way-radio-gxt67-pro) | 1        | $200  |                             |
+| [GXT67 PRO Programming Cable - AVP34](https://midlandusa.com/products/gxt67-pro-programming-cable)                         | 1        | $15   |                             |
 
 ### Ham radio
 

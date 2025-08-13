@@ -1,6 +1,6 @@
 ---
 title: "Why GMRS is the best place to start"
-date: "2024-12-15"
+date: "2025-08-29"
 summary: "📻 Is GMRS the gateway drug?"
 description: "📻 Is GMRS the gateway drug?"
 toc: true
@@ -43,12 +43,17 @@ The three biggest alternatives to GMRS would be FRS, CB and ham radio. In my opi
 
 GMRS is an "upgraded" FRS radio, but with none of the drawbacks (except filling out a license form online).
 
-* Requires a license, but no studying and no test (like getting a fishing license)
+* Requires a license (like getting a fishing license), no studying and no test
 * Compatible with FRS radios (this means anyone can run to the store and pickup a pair of FRS radios for $25 to talk to you)
 * Repeaters available to increase range
 * Detachable antennas to increase range
 * Higher power than FRS
 * Simple to use because it's channelized (no memorizing frequencies)
+
+## GMRS license
+
+Because there is no test, I applied for my GMRS license and paid the $35 fee. It was very easy, just follow [these instructions](https://www.fcc.gov/wireless/support/knowledge-base/universal-licensing-system-uls-resources/applying-new-license) after you have your FRN (and PO Box) and choose *GMRS* from the dropdown. I got my callsign via email a day or two after the license.
+
 
 ## Conclusion
 
