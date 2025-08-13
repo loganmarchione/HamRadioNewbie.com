@@ -1,2 +1,4 @@
 github.com/tomfran/typo v0.0.0-20241030202148-c80f6e28984f h1:lNrtJGsYD6G34WvbWuWNu2bsazxIjxMyE2Fq/Y3BnZQ=
 github.com/tomfran/typo v0.0.0-20241030202148-c80f6e28984f/go.mod h1:Yt5p1VY4FKPrQk2mcXThZlaULicnemsiKeGlpdEZsCw=
+github.com/tomfran/typo v1.16.0 h1:g5KaoH+mK1tTCG8GsrtFl9Tbzy0jmgYCl3mMTnAmR38=
+github.com/tomfran/typo v1.16.0/go.mod h1:8xNarVYpf1wXyorV/5F4NnTzJXGi8tTtJxourpJv4MA=
