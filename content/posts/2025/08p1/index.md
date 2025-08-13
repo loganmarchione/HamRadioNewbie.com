@@ -24,9 +24,11 @@ You can't stop radio waves from reaching you. In fact, right now, you're being b
 
 There is only a finite amount of electromagnetic spectrum (you can't make more of it), so someone or some entity needs to regulate who uses what pieces of that spectrum. Imagine a few scenarios where no one regulated the airwaves:
 
-- Your neighbor is broadcasting on the same frequency as your WiFi (killing your WiFi signal)
-- You have an accident and call 911, but your cellphone doesn't work, because the factory next door is using that frequency for their machines
-- Your plane crashes while landing because there is no radio standard for airplane communication
+- Your Bluetooth earbuds keep dropping out because a neighbor’s DIY transmitter is spilling over into the same frequency
+- Your WiFi slows to a crawl because the coffee shop next door is blasting on the same channel
+- Your GPS tells you that you’re in the middle of the ocean because a nearby business’s equipment is swamping the satellite signals
+- Firefighters at a scene can’t talk to each other because a hobbyist is using their emergency band to play music
+- A plane crashes while landing because there is no radio standard for airplane communication
 
 In the U.S., the [Federal Communications Commission](https://en.wikipedia.org/wiki/Federal_Communications_Commission) (FCC) is the entity that regulates the electromagnetic spectrum. They allocate spectrum, license operators, enforce the rules, and approve equipment.
 
