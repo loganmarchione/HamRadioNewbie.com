@@ -95,20 +95,20 @@ After some research, below are some recommended radios for newbies (like me).
 * Completely free (offer good within six months of getting your first license from the FCC)
 * USA-only
 
-[Yaesu FT-4XR](https://www.yaesu.com/indexvs.cfm?cmd=DisplayProducts&ProdCatID=111&encProdID=E28C87590C67439440323C0FEDAC1BEB&DivisionID=65&isArchived=0) ~$100
+[Yaesu FT-4XR](https://www.yaesu.com/product-detail.aspx?Model=FT-4XR&CatName=VHF/UHF%20Handhelds) ~$100
 
 * Dual-band (144/430 MHz)
 * SMA male (requires SMA female antenna)
 * Li-ion battery pack
 
-[Yaesu FT-60R](https://www.yaesu.com/indexVS.cfm?cmd=DisplayProducts&ProdCatID=111&encProdID=6EC43B29CEF0EC2B4E19BB7371688B7F&DivisionID=65&isArchived=0) ~$150
+[Yaesu FT-60R](https://www.yaesu.com/product-detail.aspx?Model=FT-60R&CatName=VHF/UHF%20Handhelds) ~$150
 
 * Dual-band (144/430 MHz)
 * SMA female (requires SMA male antenna)
 * Ni–MH battery pack
 * Aluminum body
 
-[Yaesu VX-6R](https://www.yaesu.com/indexVS.cfm?cmd=DisplayProducts&ProdCatID=111&encProdID=4C6F204F6FEBB5BAFA58BCC1C131EAC0&DivisionID=65&isArchived=0) ~$250
+[Yaesu VX-6R](https://www.yaesu.com/product-detail.aspx?Model=VX-6R&CatName=VHF/UHF%20Handhelds) ~$250
 
 * Tri-band (144/220/430 MHz)
 * SMA female (requires SMA male antenna)
