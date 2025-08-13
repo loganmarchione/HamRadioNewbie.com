@@ -1,6 +1,6 @@
 ---
 title: "Hardware"
-date: "2025-01-31"
+date: "2025-08-31"
 summary: "📻 A brief overview of radios"
 description: "📻 A brief overview of radios"
 toc: true
@@ -44,9 +44,13 @@ Base stations are the largest units with the most advanced features. They are me
 
 ## Radio recommendations
 
+### About Chinese radios
+
+I have read online to avoid the cheaper Chinese radios (e.g., Baofeng/BTECH Talkpod, Tidradio, Wouxun, etc...). While they do work, they apparently tend to break easily, do not have safe batteries, and might transmit on frequencies other than the ones specified (called spurious emissions). That said, if you can't afford to spend a lot of money, the [Baofeng UV-5X](https://www.baofengradio.com/collections/uv-series/products/uv-5x) (GMRS) and the [Baofeng UV-5R](https://www.baofengradio.com/products/uv-5r) (ham) seem to be the most recommended. Just remember, you get what you pay for 🤷🏻.
+
 ### GMRS
 
-GMRS radios all tend to have the same basic features (channels, privacy codes, NOAA weather alerts, etc...), with the only differences being battery composition (Ni–MH vs Li-ion), waterproofing level, etc... Basically, it comes down to a decision of how tough you need your radio to be. Below are some GMRS radios that seem to be recommended.
+From what I can tell, almost all GMRS radios all tend to have the same basic features (channels, privacy codes, NOAA weather alerts, etc...), with the only differences being user interface, battery composition (Ni–MH vs Li-ion), waterproofing level, etc... Below are some GMRS radios that seem to be recommended.
 
 [Wouxun KG-935G Plus](https://www.buytwowayradios.com/wouxun-kg-935g-plus.html) ~$150
 
@@ -54,7 +58,7 @@ GMRS radios all tend to have the same basic features (channels, privacy codes, N
 * Detachable antenna
 * Li-ion battery pack (removable)
 * USB-C charging
-* IP66 water-resistant
+* IP66 rating (splashproof)
 * Privacy codes
 * NOAA Weather Alerts
 * Software-programmable
@@ -65,7 +69,7 @@ GMRS radios all tend to have the same basic features (channels, privacy codes, N
 * Detachable antenna
 * Li-ion battery pack (removable)
 * USB-C charging
-* IP67 waterproof
+* IP67 (waterproof)
 * Privacy codes
 * NOAA Weather Alerts
 * Simple interface (designed for back-country use)
@@ -76,7 +80,7 @@ GMRS radios all tend to have the same basic features (channels, privacy codes, N
 * Fixed antenna
 * Li-ion battery (non-removable)
 * USB-C charging
-* IP67 waterproof
+* IP67 (waterproof)
 * Privacy codes
 * NOAA Weather Alerts
 * Active Noise Cancelling (ANC)
@@ -86,7 +90,10 @@ GMRS radios all tend to have the same basic features (channels, privacy codes, N
 
 After some research, below are some recommended radios for newbies (like me).
 
-https://www.qrz.com/jumpstart/account-required
+[QRZ-1](https://www.qrz.com/jumpstart/account-required) $0
+
+* Completely free (offer good within six months of getting your first license from the FCC)
+* USA-only
 
 [Yaesu FT-4XR](https://www.yaesu.com/indexvs.cfm?cmd=DisplayProducts&ProdCatID=111&encProdID=E28C87590C67439440323C0FEDAC1BEB&DivisionID=65&isArchived=0) ~$100
 
@@ -107,7 +114,15 @@ https://www.qrz.com/jumpstart/account-required
 * SMA female (requires SMA male antenna)
 * Li-ion battery pack
 * Aluminum body
-* Submersible
+* JIS7 rating (submersible)
+
+[Icom ID-50A](https://www.icomamerica.com/lineup/products/ID-50A/) ~$400
+
+* Dual-band (144/430 MHz)
+* SMA female (requires SMA male antenna)
+* Li-ion battery pack
+* Bluetooth, D-STAR, microSD, USB-C, GPS, etc...
+* IPX7 rating (waterproof but not dustproof)
 
 [Kenwood TH-D75A](https://www.kenwood.com/usa/com/amateur/th-d75a/) ~ $750 (jk lol 😜)
 
@@ -115,14 +130,15 @@ https://www.qrz.com/jumpstart/account-required
 * SMA female (requires SMA male antenna)
 * Li-ion battery pack
 * Bluetooth, D-STAR, microSD, USB-C, APRS, GPS, text messaging, color screen
+* IP54 rating (splashproof)
 
-You can check out more recommendations as-of 2023 below.
+You can check out more recommendations as-of 2023...
 
 {{< youtube 2EZFa-2HzFI >}}
 
-### About Chinese radios
+...and 2024.
 
-I have read online to avoid the cheaper Chinese radios (e.g., Baofeng/BTECH Talkpod, Tidradio etc...). While they do work, they apparently tend to break easily, do not have safe batteries, and might transmit on frequencies other than the ones specified (called spurious emissions). That said, if you can't afford to spend a lot of money, the [Baofeng UV-5X](https://www.baofengradio.com/collections/uv-series/products/uv-5x) (GMRS) and the [Baofeng UV-5R](https://www.baofengradio.com/products/uv-5r) (ham) seem to be the most recommended. Just remember, you get what you pay for 🤷🏻.
+{{< youtube 7mscWPjt0xk >}}
 
 ## Accessories
 
@@ -153,6 +169,17 @@ A speaker-mic is a plug-in device that gives you a handheld speaker+microphone c
 {{< img src="20241021_005.jpg" alt="speaker-mic" >}}
 
 ## What did I purchase
+
+### GMRS
+
+I purchased the items below. I liked the idea of the detachable antenna of the Rocky Talkie, but didn't like the interface (I prefer the menu system). I also purchased the USB programming cable so that I can program the GXT67 PRO from my computer (the software seems to be Windows-only).
+
+| Item                                                                                                                       | Quantity | Price | Comments                    |
+|----------------------------------------------------------------------------------------------------------------------------|----------|-------|-----------------------------|
+| [Midland GXT67 PRO](https://midlandusa.com/collections/gxt-walkie-talkie/products/gxt-gmrs-5-watt-two-way-radio-gxt67-pro) | 1        | $200  |                             |
+| [GXT67 PRO Programming Cable - AVP34](https://midlandusa.com/products/gxt67-pro-programming-cable)                         | 1        | $15   |                             |
+
+### Ham radio
 
 I purchased the items below. I chose the Yaesu VX-6R because it had the extra band, uses Li-ion batteries, and is waterproof. I guess time will tell if it was worth the extra $100 over the FT-60R 🤷🏻.
 

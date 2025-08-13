@@ -44,9 +44,9 @@ I am going to attempt learn about ham radio and obtain the most basic license (t
 
 I've worked in IT for over a decade and still can't find words to express how amazing digital technology is. As the famous tweets say:
 
-{{< twitter user="daisyowl" id="841802094361235456" >}}
+> if you ever code something that "feels like a hack but it works," just remember that a CPU is literally a rock that we tricked into thinking ([source](https://twitter.com/daisyowl/status/841802094361235456?ref_src=twsrc%5Etfw))
 
-{{< twitter user="daisyowl" id="841806379962646532" >}}
+> not to oversimplify: first you have to flatten the rock and put lightning inside it ([source](https://twitter.com/daisyowl/status/841806379962646532?ref_src=twsrc%5Etfw))
 
 Digital technology has become so ubiquitous that we take it for granted. Without a doubt, the internet and cell phones have forever changed the way we communicate. For most people now, the internet and the cell phone are their main forms of communication (and I'm not saying this needs to change).
 
@@ -77,7 +77,7 @@ I plan on using a number of tools to study for the Technician exam.
 
 * [HamStudy.org](https://hamstudy.org/) - This is a great free website and they have an [offline app](https://hamstudy.org/appstore) as well
 * [Ham Radio Crash Course](https://www.youtube.com/@HamRadioCrashCourse) - This is a YouTuber who offers tons of info for free and also has a [video playlist about the Technician exam](https://www.youtube.com/playlist?list=PL1KAjn5rGhixvvb_jMZFWmbP97-t9Kyxk)
-* [The American Radio Relay League (AARL)](https://www.arrl.org/) - A US-based non-commercial organization that has lots of useful info
+* [The American Radio Relay League (ARRL)](https://www.arrl.org/) - A US-based non-commercial organization that has lots of useful info
 * Books - There are tons of books on the subject, so I may pickup [one that is highly recommended](https://www.amazon.com/2022-2026-Technician-Class-WB6NOA-Gordon/dp/0945053010)
 * Note-taking - I self-host a [Joplin](https://joplinapp.org/) instance at home, so I will take notes in that (but if you don't run Joplin, a pencil and paper works fine too!)
 
