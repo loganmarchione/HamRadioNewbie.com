@@ -1,6 +1,6 @@
 ---
 title: "Hardware"
-date: "2025-08-31"
+date: "2025-12-01"
 summary: "📻 A brief overview of radios"
 description: "📻 A brief overview of radios"
 toc: true
